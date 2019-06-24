@@ -1,0 +1,3 @@
+D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\FPSStealth.Build.cs
+D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth.Target.cs
+D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealthEditor.Target.cs

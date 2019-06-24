@@ -1,0 +1,1361 @@
+﻿Log file open, 06/23/19 20:21:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FPSStealth
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.319629
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.085s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.06.23-18.21.39:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.06.23-18.21.39:530][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.06.23-18.21.39:531][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.06.23-18.21.39:531][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.06.23-18.21.39:531][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.06.23-18.21.39:535][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:535][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.23-18.21.39:535][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.23-18.21.39:535][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:535][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.23-18.21.39:536][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.23-18.21.39:537][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.23-18.21.39:537][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.23-18.21.39:538][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.06.23-18.21.39:547][  0]LogHAL: Display: Platform has ~ 24 GB [25647157248 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.06.23-18.21.39:547][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.06.23-18.21.39:547][  0]LogInit: Going up to parent DeviceProfile []
+[2019.06.23-18.21.39:547][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:547][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.06.23-18.21.39:547][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.06.23-18.21.39:547][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:547][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.06.23-18.21.39:548][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.06.23-18.21.39:549][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.06.23-18.21.39:550][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.06.23-18.21.39:551][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.06.23-18.21.39:551][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.06.23-18.21.39:551][  0]LogInit: Computer: BAHAMUT
+[2019.06.23-18.21.39:551][  0]LogInit: User: kryst
+[2019.06.23-18.21.39:551][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.06.23-18.21.39:551][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.06.23-18.21.39:551][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2019.06.23-18.21.39:551][  0]LogMemory: Platform Memory Stats for Windows
+[2019.06.23-18.21.39:551][  0]LogMemory: Process Physical Memory: 103.48 MB used, 103.48 MB peak
+[2019.06.23-18.21.39:551][  0]LogMemory: Process Virtual Memory: 93.38 MB used, 93.38 MB peak
+[2019.06.23-18.21.39:551][  0]LogMemory: Physical Memory: 9109.00 MB used,  15350.03 MB free, 24459.04 MB total
+[2019.06.23-18.21.39:551][  0]LogMemory: Virtual Memory: 4637.71 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.06.23-18.21.39:588][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.06.23-18.21.39:588][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.06.23-18.21.40:048][  0]LogStreaming: Display: Took  0.460s to InitEngineTextLocalization.
+[2019.06.23-18.21.40:048][  0]LogInit: Setting process to per monitor DPI aware
+[2019.06.23-18.21.40:101][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.06.23-18.21.40:101][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.06.23-18.21.40:464][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.23-18.21.40:464][  0]LogD3D11RHI: D3D11 adapters:
+[2019.06.23-18.21.40:546][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.06.23-18.21.40:546][  0]LogD3D11RHI:       8081/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.06.23-18.21.40:559][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.06.23-18.21.40:559][  0]LogD3D11RHI:       128/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.06.23-18.21.40:562][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.06.23-18.21.40:562][  0]LogD3D11RHI:       0/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.06.23-18.21.40:562][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.06.23-18.21.40:597][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.06.23-18.21.40:597][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2019.06.23-18.21.40:597][  0]LogWindows: EnumDisplayDevices:
+[2019.06.23-18.21.40:598][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.06.23-18.21.40:598][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.23-18.21.40:599][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.06.23-18.21.40:599][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.23-18.21.40:599][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.23-18.21.40:600][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.23-18.21.40:600][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.06.23-18.21.40:600][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.06.23-18.21.40:600][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.06.23-18.21.40:600][  0]LogD3D11RHI:   Driver Version: 430.86 (internal:26.21.14.3086, unified:430.86)
+[2019.06.23-18.21.40:600][  0]LogD3D11RHI:      Driver Date: 5-22-2019
+[2019.06.23-18.21.40:600][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.06.23-18.21.40:657][  0]LogD3D11RHI: Async texture creation enabled
+[2019.06.23-18.21.40:670][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.06.23-18.21.41:138][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.06.23-18.21.41:160][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.06.23-18.21.41:182][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.06.23-18.21.41:203][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.06.23-18.21.41:222][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.06.23-18.21.41:247][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.06.23-18.21.41:268][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.06.23-18.21.41:291][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.06.23-18.21.41:302][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.06.23-18.21.41:435][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:436][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.06.23-18.21.41:438][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.06.23-18.21.41:516][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.23-18.21.41:516][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.06.23-18.21.41:551][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.23-18.21.41:552][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.06.23-18.21.41:566][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.06.23-18.21.41:583][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.06.23-18.21.41:600][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.06.23-18.21.41:618][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.06.23-18.21.41:689][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.23-18.21.41:689][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.06.23-18.21.41:689][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.06.23-18.21.41:816][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Intermediate/Shaders/WorkingDirectory/16120/).
+[2019.06.23-18.21.41:817][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kryst/AppData/Local/Temp/UnrealShaderWorkingDir/7F206ADA41F41C14131AB4810A7E23B9/'.
+[2019.06.23-18.21.41:823][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.06.23-18.21.41:823][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.06.23-18.21.41:823][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.06.23-18.21.42:531][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.06.23-18.21.42:613][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.06.23-18.21.42:613][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.06.23-18.21.42:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.06.23-18.21.42:613][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.06.23-18.21.42:613][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.23-18.21.42:613][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.06.23-18.21.42:632][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.06.23-18.21.42:633][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.06.23-18.21.42:633][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.06.23-18.21.42:646][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kryst/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.06.23-18.21.42:646][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.06.23-18.21.42:646][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.06.23-18.21.42:678][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.06.23-18.21.42:679][  0]LogSlate: Using FreeType 2.6.0
+[2019.06.23-18.21.42:680][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.06.23-18.21.42:791][  0]LogAssetRegistry: FAssetRegistry took 0.0352 seconds to start up
+[2019.06.23-18.21.43:215][  0]LogInit: Selected Device Profile: [Windows]
+[2019.06.23-18.21.43:411][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.06.23-18.21.43:418][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.06.23-18.21.43:418][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.06.23-18.21.43:418][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.06.23-18.21.43:418][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.06.23-18.21.43:439][  0]LogNetVersion: FPSStealth 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3402079695)
+[2019.06.23-18.21.43:987][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.043234 seconds
+[2019.06.23-18.21.43:994][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.06.23-18.21.43:994][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.06.23-18.21.43:994][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.06.23-18.21.45:240][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.06.23-18.21.45:261][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.06.23-18.21.46:659][  0]SourceControl: Source control is disabled
+[2019.06.23-18.21.46:660][  0]SourceControl: Source control is disabled
+[2019.06.23-18.21.46:661][  0]SourceControl: Source control is disabled
+[2019.06.23-18.21.46:662][  0]SourceControl: Source control is disabled
+[2019.06.23-18.21.46:848][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.06.23-18.21.46:922][  0]LogOcInput: OculusInput pre-init called
+[2019.06.23-18.21.47:073][  0]LogEngine: Initializing Engine...
+[2019.06.23-18.21.47:074][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.06.23-18.21.47:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.23-18.21.47:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.23-18.21.47:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.23-18.21.47:076][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.23-18.21.47:368][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.06.23-18.21.47:391][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.06.23-18.21.47:402][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.23-18.21.47:601][  0]LogInit: FAudioDevice initialized.
+[2019.06.23-18.21.47:602][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.06.23-18.21.47:657][  0]LogDerivedDataCache: Saved boot cache 0.05s 74MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.06.23-18.21.47:664][  0]LogInit: Texture streaming: Enabled
+[2019.06.23-18.21.47:699][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.06.23-18.21.47:722][  0]LogInit: Transaction tracking system initialized
+[2019.06.23-18.21.47:773][  0]BlueprintLog: New page: Editor Load
+[2019.06.23-18.21.47:993][  0]LocalizationService: Localization service is disabled
+[2019.06.23-18.21.48:696][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/' took 0.01s
+[2019.06.23-18.21.48:696][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.06.23-18.21.48:696][  0]LogCook: Display: Mobile HDR setting 1
+[2019.06.23-18.21.48:696][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.06.23-18.21.48:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.06.23-18.21.48:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.06.23-18.21.48:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.06.23-18.21.48:696][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.06.23-18.21.48:891][  0]SourceControl: Source control is disabled
+[2019.06.23-18.21.48:893][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.21/FeaturePacks/StarterContent.upack)
+[2019.06.23-18.21.48:906][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2019.06.23-18.21.48:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2019.06.23-18.21.48:923][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2019.06.23-18.21.48:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2019.06.23-18.21.48:926][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2019.06.23-18.21.48:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2019.06.23-18.21.48:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2019.06.23-18.21.48:955][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2019.06.23-18.21.48:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2019.06.23-18.21.48:957][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2019.06.23-18.21.48:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2019.06.23-18.21.48:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2019.06.23-18.21.48:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Collapse01.uasset"
+[2019.06.23-18.21.48:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Collapse02.uasset"
+[2019.06.23-18.21.48:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2019.06.23-18.21.48:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Explosion01.uasset"
+[2019.06.23-18.21.48:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Explosion02.uasset"
+[2019.06.23-18.21.48:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2019.06.23-18.21.48:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Fire01.uasset"
+[2019.06.23-18.21.48:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2019.06.23-18.21.48:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2019.06.23-18.21.48:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2019.06.23-18.21.48:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Light01.uasset"
+[2019.06.23-18.21.48:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2019.06.23-18.21.48:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Light02.uasset"
+[2019.06.23-18.21.48:979][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2019.06.23-18.21.48:980][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Smoke01.uasset"
+[2019.06.23-18.21.48:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2019.06.23-18.21.48:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2019.06.23-18.21.48:986][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2019.06.23-18.21.48:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2019.06.23-18.21.48:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2019.06.23-18.21.48:997][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2019.06.23-18.21.49:001][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2019.06.23-18.21.49:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Steam01.uasset"
+[2019.06.23-18.21.49:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2019.06.23-18.21.49:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2019.06.23-18.21.49:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2019.06.23-18.21.49:006][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2019.06.23-18.21.49:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2019.06.23-18.21.49:029][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2019.06.23-18.21.49:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2019.06.23-18.21.49:031][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2019.06.23-18.21.49:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2019.06.23-18.21.49:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2019.06.23-18.21.49:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2019.06.23-18.21.49:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2019.06.23-18.21.49:038][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2019.06.23-18.21.49:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2019.06.23-18.21.49:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2019.06.23-18.21.49:056][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2019.06.23-18.21.49:057][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2019.06.23-18.21.49:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2019.06.23-18.21.49:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2019.06.23-18.21.49:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2019.06.23-18.21.49:117][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Maps/Minimal_Default.umap"
+[2019.06.23-18.21.49:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2019.06.23-18.21.49:122][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Maps/StarterMap.umap"
+[2019.06.23-18.21.49:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2019.06.23-18.21.49:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2019.06.23-18.21.49:140][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2019.06.23-18.21.49:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2019.06.23-18.21.49:142][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2019.06.23-18.21.49:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2019.06.23-18.21.49:145][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2019.06.23-18.21.49:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2019.06.23-18.21.49:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2019.06.23-18.21.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2019.06.23-18.21.49:148][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2019.06.23-18.21.49:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2019.06.23-18.21.49:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2019.06.23-18.21.49:153][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2019.06.23-18.21.49:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2019.06.23-18.21.49:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2019.06.23-18.21.49:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2019.06.23-18.21.49:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2019.06.23-18.21.49:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Glass.uasset"
+[2019.06.23-18.21.49:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2019.06.23-18.21.49:162][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2019.06.23-18.21.49:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2019.06.23-18.21.49:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2019.06.23-18.21.49:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2019.06.23-18.21.49:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2019.06.23-18.21.49:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2019.06.23-18.21.49:168][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2019.06.23-18.21.49:170][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2019.06.23-18.21.49:171][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2019.06.23-18.21.49:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2019.06.23-18.21.49:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2019.06.23-18.21.49:210][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2019.06.23-18.21.49:212][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2019.06.23-18.21.49:213][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2019.06.23-18.21.49:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2019.06.23-18.21.49:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2019.06.23-18.21.49:216][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2019.06.23-18.21.49:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2019.06.23-18.21.49:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2019.06.23-18.21.49:221][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2019.06.23-18.21.49:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2019.06.23-18.21.49:223][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2019.06.23-18.21.49:224][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2019.06.23-18.21.49:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2019.06.23-18.21.49:228][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2019.06.23-18.21.49:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/P_Explosion.uasset"
+[2019.06.23-18.21.49:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/P_Fire.uasset"
+[2019.06.23-18.21.49:230][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/P_Smoke.uasset"
+[2019.06.23-18.21.49:232][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/P_Sparks.uasset"
+[2019.06.23-18.21.49:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2019.06.23-18.21.49:233][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2019.06.23-18.21.49:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2019.06.23-18.21.49:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2019.06.23-18.21.49:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2019.06.23-18.21.49:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2019.06.23-18.21.49:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2019.06.23-18.21.49:239][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2019.06.23-18.21.49:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2019.06.23-18.21.49:241][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2019.06.23-18.21.49:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2019.06.23-18.21.49:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/MaterialSphere.uasset"
+[2019.06.23-18.21.49:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Bush.uasset"
+[2019.06.23-18.21.49:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Chair.uasset"
+[2019.06.23-18.21.49:247][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2019.06.23-18.21.49:248][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Couch.uasset"
+[2019.06.23-18.21.49:250][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Door.uasset"
+[2019.06.23-18.21.49:251][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2019.06.23-18.21.49:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2019.06.23-18.21.49:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2019.06.23-18.21.49:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2019.06.23-18.21.49:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2019.06.23-18.21.49:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2019.06.23-18.21.49:262][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2019.06.23-18.21.49:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Rock.uasset"
+[2019.06.23-18.21.49:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Shelf.uasset"
+[2019.06.23-18.21.49:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Stairs.uasset"
+[2019.06.23-18.21.49:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_Statue.uasset"
+[2019.06.23-18.21.49:269][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_TableRound.uasset"
+[2019.06.23-18.21.49:270][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2019.06.23-18.21.49:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2019.06.23-18.21.49:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2019.06.23-18.21.49:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2019.06.23-18.21.49:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2019.06.23-18.21.49:276][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2019.06.23-18.21.49:292][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2019.06.23-18.21.49:293][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2019.06.23-18.21.49:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2019.06.23-18.21.49:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2019.06.23-18.21.49:296][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2019.06.23-18.21.49:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2019.06.23-18.21.49:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2019.06.23-18.21.49:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2019.06.23-18.21.49:301][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2019.06.23-18.21.49:302][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2019.06.23-18.21.49:303][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2019.06.23-18.21.49:304][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2019.06.23-18.21.49:306][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2019.06.23-18.21.49:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2019.06.23-18.21.49:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2019.06.23-18.21.49:309][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2019.06.23-18.21.49:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2019.06.23-18.21.49:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2019.06.23-18.21.49:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2019.06.23-18.21.49:313][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2019.06.23-18.21.49:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2019.06.23-18.21.49:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2019.06.23-18.21.49:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2019.06.23-18.21.49:318][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2019.06.23-18.21.49:319][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2019.06.23-18.21.49:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2019.06.23-18.21.49:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2019.06.23-18.21.49:334][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2019.06.23-18.21.49:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2019.06.23-18.21.49:346][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2019.06.23-18.21.49:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2019.06.23-18.21.49:364][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2019.06.23-18.21.49:373][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2019.06.23-18.21.49:381][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2019.06.23-18.21.49:392][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2019.06.23-18.21.49:398][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2019.06.23-18.21.49:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2019.06.23-18.21.49:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2019.06.23-18.21.49:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2019.06.23-18.21.49:422][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2019.06.23-18.21.49:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2019.06.23-18.21.49:424][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2019.06.23-18.21.49:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2019.06.23-18.21.49:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2019.06.23-18.21.49:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2019.06.23-18.21.49:430][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2019.06.23-18.21.49:431][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2019.06.23-18.21.49:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2019.06.23-18.21.49:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2019.06.23-18.21.49:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2019.06.23-18.21.49:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2019.06.23-18.21.49:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2019.06.23-18.21.49:479][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2019.06.23-18.21.49:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2019.06.23-18.21.49:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2019.06.23-18.21.49:915][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2019.06.23-18.21.49:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2019.06.23-18.21.49:938][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2019.06.23-18.21.49:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2019.06.23-18.21.49:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2019.06.23-18.21.49:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2019.06.23-18.21.49:982][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2019.06.23-18.21.49:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2019.06.23-18.21.49:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2019.06.23-18.21.49:998][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2019.06.23-18.21.49:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Door_M.uasset"
+[2019.06.23-18.21.50:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Door_N.uasset"
+[2019.06.23-18.21.50:004][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2019.06.23-18.21.50:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2019.06.23-18.21.50:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2019.06.23-18.21.50:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2019.06.23-18.21.50:190][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2019.06.23-18.21.50:193][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2019.06.23-18.21.50:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2019.06.23-18.21.50:211][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2019.06.23-18.21.50:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2019.06.23-18.21.50:243][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2019.06.23-18.21.50:255][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2019.06.23-18.21.50:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2019.06.23-18.21.50:288][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2019.06.23-18.21.50:289][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2019.06.23-18.21.50:294][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2019.06.23-18.21.50:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2019.06.23-18.21.50:322][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2019.06.23-18.21.50:336][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2019.06.23-18.21.50:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2019.06.23-18.21.50:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2019.06.23-18.21.50:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2019.06.23-18.21.50:932][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2019.06.23-18.21.50:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2019.06.23-18.21.51:222][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2019.06.23-18.21.51:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2019.06.23-18.21.51:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2019.06.23-18.21.51:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2019.06.23-18.21.51:263][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2019.06.23-18.21.51:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2019.06.23-18.21.51:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2019.06.23-18.21.51:297][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2019.06.23-18.21.51:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2019.06.23-18.21.51:327][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2019.06.23-18.21.51:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2019.06.23-18.21.51:354][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2019.06.23-18.21.51:356][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2019.06.23-18.21.51:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2019.06.23-18.21.51:727][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2019.06.23-18.21.51:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2019.06.23-18.21.51:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2019.06.23-18.21.51:733][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2019.06.23-18.21.51:735][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2019.06.23-18.21.51:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2019.06.23-18.21.51:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2019.06.23-18.21.51:740][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2019.06.23-18.21.51:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2019.06.23-18.21.51:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2019.06.23-18.21.51:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2019.06.23-18.21.51:747][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2019.06.23-18.21.51:748][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2019.06.23-18.21.51:752][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2019.06.23-18.21.51:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Water_M.uasset"
+[2019.06.23-18.21.51:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Water_N.uasset"
+[2019.06.23-18.21.51:763][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2019.06.23-18.21.51:768][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2019.06.23-18.21.51:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2019.06.23-18.21.51:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2019.06.23-18.21.51:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2019.06.23-18.21.51:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2019.06.23-18.21.51:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2019.06.23-18.21.51:805][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2019.06.23-18.21.51:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2019.06.23-18.21.51:827][  0]LogStaticMesh: Building static mesh Floor_400x400...
+[2019.06.23-18.21.51:833][  0]LogStaticMesh: Built static mesh [0.01s] /Game/StarterContent/Architecture/Floor_400x400.Floor_400x400
+[2019.06.23-18.21.51:882][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2019.06.23-18.21.51:951][  0]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Floor_400x400B0D36FEC4B51EE971F0981907576C811.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2019.06.23-18.21.51:953][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2019.06.23-18.21.51:954][  0]Cmd: MAP LOAD FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.06.23-18.21.51:954][  0]LightingResults: New page: Lighting Build
+[2019.06.23-18.21.51:959][  0]MapCheck: New page: Map Check
+[2019.06.23-18.21.51:959][  0]LightingResults: New page: Lighting Build
+[2019.06.23-18.21.52:117][  0]LogTexture: Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 64X64)
+[2019.06.23-18.21.53:961][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 2048X2048)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: LQ_Lightmap_0_5 (DXT1, 64X64)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 2048X1024)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 2048X1024)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 2048X1024)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: SkyOcclusion0_4 (AutoDXT, 2048X1024)
+[2019.06.23-18.21.53:962][  0]LogTexture: Display: Building textures: SkyOcclusion0_5 (AutoDXT, 64X32)
+[2019.06.23-18.21.54:506][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.06.23-18.21.54:518][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.06.23-18.21.54:540][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.06.23-18.21.54:540][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.094ms to complete.
+[2019.06.23-18.21.54:540][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 2.587
+[2019.06.23-18.21.54:642][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.23-18.21.54:649][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.23-18.21.54:657][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.23-18.21.54:697][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.23-18.21.54:708][  0]LogCollectionManager: Loaded 0 collections in 0.003410 seconds
+[2019.06.23-18.21.54:752][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Collections/' took 0.01s
+[2019.06.23-18.21.54:752][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Developers/kryst/Collections/' took 0.01s
+[2019.06.23-18.21.54:752][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Collections/' took 0.01s
+[2019.06.23-18.21.54:753][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.06.23-18.21.54:763][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2655 classes and 622 folders.
+[2019.06.23-18.21.54:778][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.06.23-18.21.54:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:782][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:785][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:786][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:787][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:789][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:790][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:791][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:792][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:793][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:794][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:795][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:796][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:797][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:797][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:798][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:799][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:799][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.06.23-18.21.54:868][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.06.23-18.21.54:879][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.06.23-18.21.54:995][  0]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.06.23-18.21.54:998][  0]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.06.23-18.21.55:010][  0]LogSlate: Took 0.000603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.06.23-18.21.55:107][  0]LogRenderer: Reallocating scene render targets to support 1028x632 Format 10 NumSamples 1 (Frame:1).
+[2019.06.23-18.21.55:186][  0]LogSlate: Took 0.000724 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.23-18.21.55:298][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.06.23-18.21.55:298][  0]LogLoad: (Engine Initialization) Total time: 18.90 seconds
+[2019.06.23-18.21.55:298][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.06.23-18.21.57:238][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.06.23-18.21.57:397][  2]LogAssetRegistry: Asset discovery search completed in 14.6285 seconds
+[2019.06.23-18.21.57:398][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.06.23-18.21.57:398][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
+[2019.06.23-18.22.37:318][211]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.23-18.22.38:885][305]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.06.23-18.22.38:887][305]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.23-18.22.38:931][305]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.23-18.22.38:940][305]LogSlate: Took 0.000658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.06.23-18.23.23:468][433]Running C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -invalidatemakefilesonly
+[2019.06.23-18.23.24:582][433]Invalidating makefiles only in this run.
+[2019.06.23-18.23.24:707][433]Candidate modules for hot reload:
+[2019.06.23-18.23.24:707][433]  FPSStealth
+[2019.06.23-18.23.24:707][433]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,8272 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.06.23-18.23.52:881][433]CompilerResultsLog: New page: Compilation - Jun 23, 2019, 10:23:52 PM
+[2019.06.23-18.23.52:881][433]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.06.23-18.23.52:881][433]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.06.23-18.23.52:882][433]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (no existing makefile)
+[2019.06.23-18.23.52:882][433]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.23-18.23.52:882][433]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.06.23-18.23.52:882][433]CompilerResultsLog: Parsing headers for FPSStealthEditor
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\FPSStealth.uproject" "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\FPSStealthEditor\Development\FPSStealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.23-18.23.52:882][433]CompilerResultsLog: Reflection code generated for FPSStealthEditor in 13,9368545 seconds
+[2019.06.23-18.23.52:882][433]CompilerResultsLog: Building 14 actions with 8 processes...
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [1/14] FPSStealth.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [2/14] FPSStealth.init.gen.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [3/14] AIGuard.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [4/14] FPSStealthProjectile.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [5/14] AIGuard.gen.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [6/14] FPSStealthGameMode.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [7/14] FPSStealthHUD.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [8/14] FPSStealthGameMode.gen.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [9/14] FPSStealthCharacter.gen.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [10/14] FPSStealthProjectile.gen.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [11/14] FPSStealthHUD.gen.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [12/14] FPSStealthCharacter.cpp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [13/14] UE4Editor-FPSStealth-8272.lib
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-8272.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-8272.exp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:   [14/14] UE4Editor-FPSStealth-8272.dll
+[2019.06.23-18.23.52:882][433]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-8272.suppressed.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-8272.suppressed.exp
+[2019.06.23-18.23.52:882][433]CompilerResultsLog: Total build time: 27,85 seconds (Parallel executor: 5,83 seconds)
+[2019.06.23-18.23.52:883][433]LogMainFrame: MainFrame: Module compiling took 28.179 seconds
+[2019.06.23-18.23.53:145][433]LogClass: Could not find existing class AIGuard in package /Script/FPSStealth for HotReload, assuming new class
+[2019.06.23-18.23.53:156][433]LogHotReload: Re-instancing FPSStealthHUD after hot-reload.
+[2019.06.23-18.23.53:225][433]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0005 seconds. Added 5 classes and 3 folders.
+[2019.06.23-18.23.53:227][433]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.06.23-18.23.53:358][433]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2657 classes and 625 folders.
+[2019.06.23-18.23.53:359][433]Display: HotReload took 28.7s.
+[2019.06.23-18.23.53:360][433]Warning: HotReload operation took 28.7s.
+[2019.06.23-18.23.54:103][433]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.06.23-18.23.54:115][433]LogHotReload: New module detected: UE4Editor-FPSStealth-8272.dll
+[2019.06.23-18.23.54:127][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.23-18.23.54:153][434]LogHotReload: Starting Hot-Reload from IDE
+[2019.06.23-18.23.54:210][434]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0008 seconds. Added 5 classes and 3 folders.
+[2019.06.23-18.23.54:213][434]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.06.23-18.23.54:252][434]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2657 classes and 625 folders.
+[2019.06.23-18.23.54:255][434]Display: HotReload took  0.1s.
+[2019.06.23-18.26.13:646][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.23-18.28.08:725][925]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.06.23-18.29.53:803][274]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_AIGuard.BP_AIGuard
+[2019.06.23-18.29.54:338][274]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 117 classes and 0 folders.
+[2019.06.23-18.29.55:290][274]LogRenderer: Reallocating scene render targets to support 1144x696 Format 10 NumSamples 1 (Frame:1).
+[2019.06.23-18.29.58:386][455]LogSlate: Took 0.015098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.06.23-18.30.15:195][169]LogTexture: Display: Building textures: T_Dwarf_Grunt_Equipment_M (AutoDXT, 2048X2048)
+[2019.06.23-18.30.15:195][169]LogTexture: Display: Building textures: T_Dwarf_Grunt_Equipment_Blue_N (BC5, 2048X2048)
+[2019.06.23-18.30.15:195][169]LogTexture: Display: Building textures: T_Dwarf_Grunt_Equipment_Blue_D (AutoDXT, 2048X2048)
+[2019.06.23-18.30.15:195][169]LogTexture: Display: Building textures: T_Dwarf_Grunt_N (BC5, 2048X2048)
+[2019.06.23-18.30.15:195][169]LogTexture: Display: Building textures: T_Dwarf_Grunt_Blue_D (AutoDXT, 2048X2048)
+[2019.06.23-18.30.15:195][169]LogTexture: Display: Building textures: T_Dwarf_Grunt_M (AutoDXT, 2048X2048)
+[2019.06.23-18.30.15:195][169]LogMaterial: Display: Missing cached shader map for material M_Dwarf_Grunt, compiling. 
+[2019.06.23-18.30.15:283][169]LogSkeletalMesh: Building Skeletal Mesh DwarfGrunt_R_new...
+[2019.06.23-18.30.15:285][169]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Characters/DwarfGrunt/SkelMesh/DwarfGrunt_R_new.DwarfGrunt_R_new
+[2019.06.23-18.30.15:288][169]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.06.23-18.30.15:288][169]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.06.23-18.30.15:288][169]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.06.23-18.30.15:288][169]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.06.23-18.30.18:638][337]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.06.23-18.30.19:248][368]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.06.23-18.30.21:802][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.23-18.30.21:920][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
+[2019.06.23-18.30.21:940][510]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/BP_AIGuardF08A324F44B07CC66DBA24B98301DC7C.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_AIGuard.uasset'
+[2019.06.23-18.30.22:602][549]BlueprintLog: New page: Compile BP_AIGuard
+[2019.06.23-18.30.52:862][909]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.23-18.31.24:482][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.23-18.32.27:045][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap' took 0.040
+[2019.06.23-18.32.27:061][542]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/BP_AIGuard] ([1] browsable assets)...
+[2019.06.23-18.32.27:074][542]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_AIGuard.BP_AIGuard]
+[2019.06.23-18.32.27:074][542]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_AIGuard]
+[2019.06.23-18.32.27:074][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Autosaves/Game/Blueprints/BP_AIGuard_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.06.23-18.32.27:095][542]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/BP_AIGuard_Auto126C26BA2474CFCD3FADDB0921594CB5C.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Autosaves/Game/Blueprints/BP_AIGuard_Auto1.uasset'
+[2019.06.23-18.32.27:096][542]LogFileHelpers: Auto-saving content packages took 0.049
+[2019.06.23-18.32.40:614][583]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.23-18.32.47:027][860]LogSlate: Window 'Save Asset As' being destroyed
+[2019.06.23-18.32.49:191][909]LogSlate: Window 'Save Asset As' being destroyed
+[2019.06.23-18.32.58:098][ 79]LogSlate: Window 'Save Asset As' being destroyed
+[2019.06.23-18.33.07:216][ 79]LogSlate: Window 'Pick Skeleton' being destroyed
+[2019.06.23-18.33.07:235][ 79]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/Characters/DwarfGrunt/Anims/Idle_1_new.Idle_1_new
+[2019.06.23-18.33.07:236][ 79]LogAnimationCompression: Recompressing (AnimSequence /Game/Characters/DwarfGrunt/Anims/Idle_1_new.Idle_1_new) using current/default (AnimCompress_RemoveLinearKeys_16) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.06.23-18.33.12:880][ 79]LogSlate: Window 'Message' being destroyed
+[2019.06.23-18.33.39:654][349]LogSlate: Window 'Save Asset As' being destroyed
+[2019.06.23-18.33.42:706][349]LogSlate: Window 'Pick Skeleton' being destroyed
+[2019.06.23-18.33.55:326][103]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (42.427 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.06.23-18.34.07:685][325]BlueprintLog: New page: Compile BP_AIGuard
+[2019.06.23-18.34.08:538][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
+[2019.06.23-18.34.08:557][358]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/BP_AIGuardB4B1AB7A48FAE33D39E5E0A23399EBB9.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_AIGuard.uasset'
+[2019.06.23-18.42.37:023][361]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_AIGuard" FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_AIGuard.uasset" SILENT=true
+[2019.06.23-18.42.37:032][361]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/BP_AIGuardE5E8D7E54FB142378F1827869F6529A5.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_AIGuard.uasset'
+[2019.06.23-18.42.39:293][496]LogSlate: Window 'BP_AIGuard' being destroyed
+[2019.06.23-18.42.39:299][496]LogSlate: Window 'BP_AIGuard' being destroyed
+[2019.06.23-18.42.53:093][308]LogMetaData: Removing '/Game/Blueprints/BP_Guard.BP_Guard:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_AIGuard.PackageMetaData'
+[2019.06.23-18.42.53:093][308]LogMetaData: Removing '/Game/Blueprints/BP_Guard.SKEL_BP_Guard_C' ref from Metadata '/Game/Blueprints/BP_AIGuard.PackageMetaData'
+[2019.06.23-18.42.53:093][308]LogMetaData: Removing '/Game/Blueprints/BP_Guard.BP_Guard_C' ref from Metadata '/Game/Blueprints/BP_AIGuard.PackageMetaData'
+[2019.06.23-18.42.53:093][308]LogMetaData: Removing '/Game/Blueprints/BP_Guard.BP_Guard:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_AIGuard.PackageMetaData'
+[2019.06.23-18.42.53:093][308]LogMetaData: Removing '/Game/Blueprints/BP_Guard.BP_Guard:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_AIGuard.PackageMetaData'
+[2019.06.23-18.42.53:093][308]LogMetaData: Removing '/Game/Blueprints/BP_Guard.BP_Guard:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_AIGuard.PackageMetaData'
+[2019.06.23-18.42.53:142][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_Guard" FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_Guard.uasset" SILENT=true
+[2019.06.23-18.42.53:157][308]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/BP_Guard3FF5C66646BD42F29E8B4FBC1D72C491.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Blueprints/BP_Guard.uasset'
+[2019.06.23-18.42.58:492][554]Candidate modules for hot reload:
+[2019.06.23-18.42.58:492][554]  FPSStealth
+[2019.06.23-18.42.58:492][554]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,1027 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.06.23-18.42.58:497][554]Warning: Starting HotReload took  0.0s.
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: New page: Compilation - Jun 23, 2019, 10:43:22 PM
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (changes to module files)
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Compiling game modules for hot reload
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Parsing headers for FPSStealthEditor
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\FPSStealth.uproject" "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\FPSStealthEditor\Development\FPSStealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Reflection code generated for FPSStealthEditor in 13,8591487 seconds
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:   [1/5] FPSStealth.init.gen.cpp
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:   [2/5] AIGuard.cpp
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:   [3/5] AIGuard.gen.cpp
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:   [4/5] UE4Editor-FPSStealth-1027.lib
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-1027.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-1027.exp
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:   [5/5] UE4Editor-FPSStealth-1027.dll
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-1027.suppressed.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-1027.suppressed.exp
+[2019.06.23-18.43.22:915][ 20]CompilerResultsLog: Total build time: 24,03 seconds (Parallel executor: 2,23 seconds)
+[2019.06.23-18.43.22:915][ 20]LogMainFrame: MainFrame: Module compiling took 24.428 seconds
+[2019.06.23-18.43.23:638][ 20]LogClass: Could not find existing class AIGuard in package /Script/FPSStealth for HotReload, assuming new class
+[2019.06.23-18.43.23:670][ 20]LogHotReload: Re-instancing AIGuard after hot-reload.
+[2019.06.23-18.43.23:900][ 20]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0006 seconds. Added 5 classes and 3 folders.
+[2019.06.23-18.43.23:903][ 20]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.06.23-18.43.24:222][ 20]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2657 classes and 625 folders.
+[2019.06.23-18.43.24:222][ 20]Display: HotReload took 25.7s.
+[2019.06.23-18.43.39:931][955]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.06.23-18.44.03:807][385]LogTemp: Repeating last play command: Selected Viewport
+[2019.06.23-18.44.03:828][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.23-18.44.03:828][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.06.23-18.44.03:828][385]PIE: New page: PIE session: FirstPersonExampleMap (Jun 23, 2019, 10:44:03 PM)
+[2019.06.23-18.44.03:841][385]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.06.23-18.44.03:856][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014921s)
+[2019.06.23-18.44.03:857][385]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.06.23-18.44.03:857][385]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2019.06.23-18.44.03:857][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016074s)
+[2019.06.23-18.44.03:937][385]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.06.23-18.44.04:002][385]LogInit: FAudioDevice initialized.
+[2019.06.23-18.44.04:045][385]LogLoad: Game class is 'FPSStealthGameMode'
+[2019.06.23-18.44.04:055][385]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.06.23-20.44.04
+[2019.06.23-18.44.04:061][385]LogWorld: Bringing up level for play took: 0.011157
+[2019.06.23-18.44.04:148][385]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.06.23-18.44.04:149][385]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.378
+[2019.06.23-18.44.04:149][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.23-18.44.18:866][266]Set new viewmode: Wireframe
+[2019.06.23-18.44.20:250][349]Set new viewmode: Lit
+[2019.06.23-18.44.21:168][404]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.23-18.44.21:169][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.23-18.44.21:212][404]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.06.23-18.44.21:213][404]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.06.23-18.44.21:273][404]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.06.23-18.44.21:318][405]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.06.23-18.44.24:471][588]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.06.23-18.44.24:699][588]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/FirstPersonExampleMapCBB183B9463BB7C59269B6A40ED8860C.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.06.23-18.44.26:085][588]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/FirstPersonExampleMap_BuiltData86C40FC84F66E25CFAE5D6A6098AAEE5.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
+[2019.06.23-18.44.27:975][698]LogSlate: Window 'FPSStealth - Unreal Editor' being destroyed
+[2019.06.23-18.44.27:976][698]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.06.23-18.44.28:176][699]Cmd: QUIT_EDITOR
+[2019.06.23-18.44.29:091][699]LogExit: Preparing to exit.
+[2019.06.23-18.44.29:992][699]LogExit: Editor shut down
+[2019.06.23-18.44.29:993][699]LogExit: Transaction tracking system shut down
+[2019.06.23-18.44.30:263][699]LogExit: Object subsystem successfully closed.
+[2019.06.23-18.44.30:285][699]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.06.23-18.44.30:289][699]LogD3D11RHI: Shutdown
+[2019.06.23-18.44.30:289][699]LogD3D11RHI: CleanupD3DDevice
+[2019.06.23-18.44.30:315][699]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (635)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module Voice (633)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module FPSStealth (631)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module BlueprintGraph (630)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (626)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module SceneOutliner (624)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module AddContentDialog (622)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module WidgetCarousel (621)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module EditorWidgets (618)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module CollectionManager (616)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module StatsViewer (614)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module MeshBuilder (612)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module BspMode (596)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
+[2019.06.23-18.44.30:337][699]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module SessionServices (538)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
+[2019.06.23-18.44.30:338][699]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
+[2019.06.23-18.44.31:150][699]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
+[2019.06.23-18.44.31:150][699]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
+[2019.06.23-18.44.31:150][699]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
+[2019.06.23-18.44.31:150][699]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
+[2019.06.23-18.44.31:150][699]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
+[2019.06.23-18.44.31:150][699]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
+[2019.06.23-18.44.31:150][699]LogModuleManager: Shutting down and abandoning module MergeActors (500)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module XmlParser (488)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module Blutility (486)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
+[2019.06.23-18.44.31:151][699]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module AutomationController (466)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module Layers (462)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module Persona (454)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
+[2019.06.23-18.44.31:217][699]LogModuleManager: Shutting down and abandoning module Kismet (448)
+[2019.06.23-18.44.31:221][699]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
+[2019.06.23-18.44.31:221][699]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module Toolbox (442)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module OutputLog (434)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module GammaUI (432)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module Documentation (430)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module MovieScene (426)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module PortalServices (418)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module AIModule (412)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
+[2019.06.23-18.44.31:222][699]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
+[2019.06.23-18.44.31:225][699]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.06.23-18.44.31:310][699]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.06.23-18.44.31:311][699]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.06.23-18.44.31:311][699]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.06.23-18.44.31:311][699]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.06.23-18.44.31:311][699]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.06.23-18.44.31:311][699]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
+[2019.06.23-18.44.31:311][699]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
+[2019.06.23-18.44.31:311][699]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module BackChannel (360)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module AppleVision (358)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.06.23-18.44.31:314][699]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.06.23-18.44.31:315][699]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.06.23-18.44.31:416][699]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.06.23-18.44.31:516][699]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.06.23-18.44.31:517][699]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.06.23-18.44.31:517][699]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.06.23-18.44.31:518][699]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.06.23-18.44.31:518][699]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.06.23-18.44.31:518][699]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.06.23-18.44.31:518][699]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.06.23-18.44.31:518][699]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.06.23-18.44.31:518][699]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
+[2019.06.23-18.44.31:518][699]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
+[2019.06.23-18.44.31:520][699]LogModuleManager: Shutting down and abandoning module Media (241)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module Overlay (230)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module VREditor (226)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module UMG (212)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module Sequencer (210)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module MessageLog (207)
+[2019.06.23-18.44.31:526][699]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
+[2019.06.23-18.44.31:527][699]LogModuleManager: Shutting down and abandoning module Slate (200)
+[2019.06.23-18.44.31:527][699]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module MRMesh (196)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module Networking (188)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module Core (186)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
+[2019.06.23-18.44.31:528][699]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
+[2019.06.23-18.44.31:612][699]LogDerivedDataCache: Shutdown
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module XGEController (158)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
+[2019.06.23-18.44.31:612][699]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
+[2019.06.23-18.44.31:613][699]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
+[2019.06.23-18.44.31:613][699]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
+[2019.06.23-18.44.31:613][699]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
+[2019.06.23-18.44.31:613][699]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
+[2019.06.23-18.44.31:613][699]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
+[2019.06.23-18.44.31:614][699]LogModuleManager: Shutting down and abandoning module Messaging (113)
+[2019.06.23-18.44.31:614][699]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
+[2019.06.23-18.44.31:614][699]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
+[2019.06.23-18.44.31:614][699]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module InputCore (86)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module Settings (84)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module SteamVR (80)
+[2019.06.23-18.44.31:619][699]LogHMD: Freeing OpenVRDLLHandle.
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
+[2019.06.23-18.44.31:619][699]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
+[2019.06.23-18.44.31:620][699]LogModuleManager: Shutting down and abandoning module XMPP (63)
+[2019.06.23-18.44.31:620][699]LogModuleManager: Shutting down and abandoning module WebSockets (62)
+[2019.06.23-18.44.31:653][699]LogModuleManager: Shutting down and abandoning module HTTP (59)
+[2019.06.23-18.44.31:653][699]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.06.23-18.44.31:653][699]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B26AA77C8-4FDF-5862-CE4A-7295D85614CD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=2193e00349f1f7085d8681b233ad044d%7Ce64a35d83fd14510912a27aad9ca61f3%7C51f51279-e709-4798-961a-0bcc0e1672db&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.06.23-18.44.31:679][699]LogModuleManager: Shutting down and abandoning module SSL (58)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
+[2019.06.23-18.44.31:680][699]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.06.23-18.44.31:680][699]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.06.23-18.44.31:681][699]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.06.23-18.44.31:689][699]LogExit: Exiting.
+[2019.06.23-18.44.31:709][699]Log file closed, 06/23/19 20:44:31
