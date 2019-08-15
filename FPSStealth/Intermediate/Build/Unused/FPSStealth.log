@@ -1,0 +1,29 @@
+﻿  Performing full C++ include scan (hot reloading a new target)
+  Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+  Creating makefile for hot reloading FPSStealthEditor (no existing makefile)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for FPSStealthEditor
+    Running UnrealHeaderTool "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\FPSStealth.uproject" "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\FPSStealthEditor\DebugGame\FPSStealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for FPSStealthEditor in 10,8148579 seconds
+  Building 16 actions with 8 processes...
+    [1/16] PCLaunch.rc
+    [2/16] SharedPCH.Engine.NonOptimized.cpp
+    [3/16] FPSStealth.init.gen.cpp
+    [4/16] FPSStealthProjectile.cpp
+    [5/16] FPSStealthHUD.cpp
+    [6/16] FPSStealthGameMode.cpp
+    [7/16] AIGuard.gen.cpp
+    [8/16] FPSStealthCharacter.cpp
+    [9/16] FPSStealthHUD.gen.cpp
+    [10/16] FPSStealthGameMode.gen.cpp
+    [11/16] FPSStealthCharacter.gen.cpp
+    [12/16] AIGuard.cpp
+    [13/16] FPSStealth.cpp
+    [14/16] FPSStealthProjectile.gen.cpp
+    [15/16] UE4Editor-FPSStealth-3556-Win64-DebugGame.lib
+       Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\DebugGame\FPSStealth\UE4Editor-FPSStealth-3556-Win64-DebugGame.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\DebugGame\FPSStealth\UE4Editor-FPSStealth-3556-Win64-DebugGame.exp
+    [16/16] UE4Editor-FPSStealth-3556-Win64-DebugGame.dll
+       Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\DebugGame\FPSStealth\UE4Editor-FPSStealth-3556-Win64-DebugGame.suppressed.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\DebugGame\FPSStealth\UE4Editor-FPSStealth-3556-Win64-DebugGame.suppressed.exp
+  Deploying FPSStealthEditor Win64 DebugGame...
+  Total build time: 48,67 seconds (Parallel executor: 30,08 seconds)

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define FPSSTEALTH_FPSStealthCharacter_generated_h
 
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_RPC_WRAPPERS
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_RPC_WRAPPERS
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSStealthCharacter(); \
 	friend struct Z_Construct_UClass_AFPSStealthCharacter_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AFPSStealthCharacter)
 
 
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_INCLASS \
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesAFPSStealthCharacter(); \
 	friend struct Z_Construct_UClass_AFPSStealthCharacter_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AFPSStealthCharacter)
 
 
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AFPSStealthCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AFPSStealthCharacter) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AFPSStealthCharacter(AFPSStealthCharacter&&); \
@@ -57,7 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSStealthCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFPSStealthCharacter)
 
 
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__Mesh1P() { return STRUCT_OFFSET(AFPSStealthCharacter, Mesh1P); } \
 	FORCEINLINE static uint32 __PPO__FP_Gun() { return STRUCT_OFFSET(AFPSStealthCharacter, FP_Gun); } \
 	FORCEINLINE static uint32 __PPO__FP_MuzzleLocation() { return STRUCT_OFFSET(AFPSStealthCharacter, FP_MuzzleLocation); } \
@@ -65,28 +65,29 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSStealthCharacter); \
 	FORCEINLINE static uint32 __PPO__VR_MuzzleLocation() { return STRUCT_OFFSET(AFPSStealthCharacter, VR_MuzzleLocation); } \
 	FORCEINLINE static uint32 __PPO__FirstPersonCameraComponent() { return STRUCT_OFFSET(AFPSStealthCharacter, FirstPersonCameraComponent); } \
 	FORCEINLINE static uint32 __PPO__R_MotionController() { return STRUCT_OFFSET(AFPSStealthCharacter, R_MotionController); } \
-	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AFPSStealthCharacter, L_MotionController); }
+	FORCEINLINE static uint32 __PPO__L_MotionController() { return STRUCT_OFFSET(AFPSStealthCharacter, L_MotionController); } \
+	FORCEINLINE static uint32 __PPO__noiseEmitterComponent() { return STRUCT_OFFSET(AFPSStealthCharacter, noiseEmitterComponent); }
 
 
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_11_PROLOG
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_GENERATED_BODY_LEGACY \
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_12_PROLOG
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_RPC_WRAPPERS \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_INCLASS \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_STANDARD_CONSTRUCTORS \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_RPC_WRAPPERS \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_INCLASS \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_GENERATED_BODY \
+#define FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	FPSStealth_Source_FPSStealth_FPSStealthCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

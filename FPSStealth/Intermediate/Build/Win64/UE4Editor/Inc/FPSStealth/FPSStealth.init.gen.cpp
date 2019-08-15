@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeFPSStealth_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/FPSStealth",
 				PKG_CompiledIn | 0x00000000,
-				0x3A0C9E2B,
-				0x31963BD8,
+				0xFACACF42,
+				0x6FDEBACF,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

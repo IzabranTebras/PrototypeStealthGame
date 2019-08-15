@@ -13,7 +13,11 @@ class AFPSStealthGameMode : public AGameModeBase
 
 public:
 	AFPSStealthGameMode();
+	void CompleteMission(APawn* pawnInside, bool success);
+	UFUNCTION(BlueprintImplementableEvent, Category = "GameMode")
+		void OnCompleteMission(APawn* pawnInside, bool success);
+
+protected:
+	UPROPERTY(EditDefaultsOnly, Category = "Spectator")
+		TSubclassOf<AActor> spectatingViewportClass;
 };
-
-
-

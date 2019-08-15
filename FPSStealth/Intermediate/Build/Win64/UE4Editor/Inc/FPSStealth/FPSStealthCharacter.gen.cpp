@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSStealthCharacter() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	FPSSTEALTH_API UClass* Z_Construct_UClass_AFPSStealthProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	ENGINE_API UClass* Z_Construct_UClass_UPawnNoiseEmitterComponent_NoRegister();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
@@ -69,6 +70,10 @@ void EmptyLinkFunctionForGeneratedCodeFPSStealthCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_noiseEmitterComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_noiseEmitterComponent;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_L_MotionController_MetaData[];
 #endif
@@ -177,6 +182,15 @@ void EmptyLinkFunctionForGeneratedCodeFPSStealthCharacter() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_BaseTurnRate = { UE4CodeGen_Private::EPropertyClass::Float, "BaseTurnRate", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(AFPSStealthCharacter, BaseTurnRate), METADATA_PARAMS(Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_BaseTurnRate_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_BaseTurnRate_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_noiseEmitterComponent_MetaData[] = {
+		{ "Category", "AI" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "FPSStealthCharacter.h" },
+		{ "ToolTip", "Sound emitter component" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_noiseEmitterComponent = { UE4CodeGen_Private::EPropertyClass::Object, "noiseEmitterComponent", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00200800000a001d, 1, nullptr, STRUCT_OFFSET(AFPSStealthCharacter, noiseEmitterComponent), Z_Construct_UClass_UPawnNoiseEmitterComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_noiseEmitterComponent_MetaData, ARRAY_COUNT(Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_noiseEmitterComponent_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_L_MotionController_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "FPSStealthCharacter" },
@@ -259,6 +273,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSStealthCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_BaseTurnRate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_noiseEmitterComponent,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_L_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_R_MotionController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AFPSStealthCharacter_Statics::NewProp_FirstPersonCameraComponent,
@@ -291,7 +306,7 @@ void EmptyLinkFunctionForGeneratedCodeFPSStealthCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AFPSStealthCharacter, 911167617);
+	IMPLEMENT_CLASS(AFPSStealthCharacter, 1298608928);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AFPSStealthCharacter(Z_Construct_UClass_AFPSStealthCharacter, &AFPSStealthCharacter::StaticClass, TEXT("/Script/FPSStealth"), TEXT("AFPSStealthCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AFPSStealthCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

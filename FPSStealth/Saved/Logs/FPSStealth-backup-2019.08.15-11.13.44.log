@@ -1,0 +1,876 @@
+﻿Log file open, 08/15/19 12:44:25
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: FPSStealth
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.301614
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.161s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.08.15-10.44.25:868][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.08.15-10.44.25:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.08.15-10.44.25:869][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.08.15-10.44.25:869][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.08.15-10.44.25:873][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:873][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.15-10.44.25:873][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.15-10.44.25:873][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:873][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.15-10.44.25:873][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.15-10.44.25:874][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.15-10.44.25:875][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.15-10.44.25:875][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.15-10.44.25:875][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.15-10.44.25:918][  0]LogHAL: Display: Platform has ~ 24 GB [25647157248 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.15-10.44.25:918][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.08.15-10.44.25:918][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.15-10.44.25:918][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:918][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.08.15-10.44.25:918][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.08.15-10.44.25:918][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:918][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.08.15-10.44.25:918][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:918][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.08.15-10.44.25:919][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.08.15-10.44.25:920][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.08.15-10.44.25:920][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.08.15-10.44.25:920][  0]LogInit: Computer: BAHAMUT
+[2019.08.15-10.44.25:920][  0]LogInit: User: kryst
+[2019.08.15-10.44.25:920][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.15-10.44.25:920][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.15-10.44.25:921][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2019.08.15-10.44.25:921][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.15-10.44.25:921][  0]LogMemory: Process Physical Memory: 102.46 MB used, 102.47 MB peak
+[2019.08.15-10.44.25:921][  0]LogMemory: Process Virtual Memory: 91.09 MB used, 91.09 MB peak
+[2019.08.15-10.44.25:921][  0]LogMemory: Physical Memory: 8714.36 MB used,  15744.68 MB free, 24459.04 MB total
+[2019.08.15-10.44.25:921][  0]LogMemory: Virtual Memory: 4635.65 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.08.15-10.44.25:949][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.08.15-10.44.25:949][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.08.15-10.44.26:373][  0]LogStreaming: Display: Took  0.424s to InitEngineTextLocalization.
+[2019.08.15-10.44.26:373][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.15-10.44.26:410][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.15-10.44.26:410][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.15-10.44.26:748][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.15-10.44.26:748][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.15-10.44.26:847][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.08.15-10.44.26:847][  0]LogD3D11RHI:       8081/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.08.15-10.44.26:858][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.08.15-10.44.26:858][  0]LogD3D11RHI:       128/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.08.15-10.44.26:861][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.15-10.44.26:861][  0]LogD3D11RHI:       0/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.15-10.44.26:861][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.15-10.44.26:891][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.15-10.44.26:891][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.15-10.44.26:891][  0]LogWindows: EnumDisplayDevices:
+[2019.08.15-10.44.26:891][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.08.15-10.44.26:892][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.08.15-10.44.26:892][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.08.15-10.44.26:892][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.15-10.44.26:893][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.15-10.44.26:893][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.15-10.44.26:893][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.08.15-10.44.26:893][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.08.15-10.44.26:894][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.08.15-10.44.26:894][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
+[2019.08.15-10.44.26:894][  0]LogD3D11RHI:      Driver Date: 7-17-2019
+[2019.08.15-10.44.26:894][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.08.15-10.44.26:947][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.15-10.44.26:960][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.15-10.44.27:379][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.08.15-10.44.27:394][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.08.15-10.44.27:408][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.08.15-10.44.27:422][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.08.15-10.44.27:439][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.08.15-10.44.27:454][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.08.15-10.44.27:468][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.08.15-10.44.27:484][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.08.15-10.44.27:492][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.08.15-10.44.27:565][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:566][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.15-10.44.27:567][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.08.15-10.44.27:631][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.15-10.44.27:631][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.15-10.44.27:653][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.15-10.44.27:653][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.15-10.44.27:666][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.08.15-10.44.27:682][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.08.15-10.44.27:695][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.08.15-10.44.27:711][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.08.15-10.44.27:763][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.08.15-10.44.27:763][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.08.15-10.44.27:763][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.15-10.44.27:867][  0]LogShaderCompilers: Guid format shader working directory is -7 characters bigger than the processId version (D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Intermediate/Shaders/WorkingDirectory/14172/).
+[2019.08.15-10.44.27:867][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kryst/AppData/Local/Temp/UnrealShaderWorkingDir/A4847611449C65D1204F3D9D45DC2BBA/'.
+[2019.08.15-10.44.27:872][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.15-10.44.27:873][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.15-10.44.27:873][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.15-10.44.28:501][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.15-10.44.28:568][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.08.15-10.44.28:568][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.08.15-10.44.28:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.15-10.44.28:568][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.15-10.44.28:568][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.15-10.44.28:568][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.15-10.44.28:587][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.15-10.44.28:587][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.15-10.44.28:587][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.08.15-10.44.28:599][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kryst/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.15-10.44.28:599][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.15-10.44.28:599][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.15-10.44.28:626][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.15-10.44.28:628][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.15-10.44.28:629][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.15-10.44.28:735][  0]LogAssetRegistry: FAssetRegistry took 0.0331 seconds to start up
+[2019.08.15-10.44.29:091][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.15-10.44.29:281][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.08.15-10.44.29:286][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.08.15-10.44.29:286][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.15-10.44.29:286][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.15-10.44.29:286][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.08.15-10.44.29:308][  0]LogNetVersion: FPSStealth 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3402079695)
+[2019.08.15-10.44.29:984][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.107020 seconds
+[2019.08.15-10.44.29:992][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.08.15-10.44.29:992][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.08.15-10.44.29:992][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.15-10.44.31:099][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.15-10.44.31:112][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.15-10.44.33:194][  0]SourceControl: Source control is disabled
+[2019.08.15-10.44.33:195][  0]SourceControl: Source control is disabled
+[2019.08.15-10.44.33:196][  0]SourceControl: Source control is disabled
+[2019.08.15-10.44.33:197][  0]SourceControl: Source control is disabled
+[2019.08.15-10.44.33:367][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.15-10.44.33:425][  0]LogOcInput: OculusInput pre-init called
+[2019.08.15-10.44.33:589][  0]LogEngine: Initializing Engine...
+[2019.08.15-10.44.33:590][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.15-10.44.33:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.15-10.44.33:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.15-10.44.33:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.15-10.44.33:591][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.15-10.44.33:836][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.15-10.44.33:858][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.15-10.44.33:866][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.15-10.44.33:939][  0]LogInit: FAudioDevice initialized.
+[2019.08.15-10.44.33:939][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.15-10.44.33:991][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.08.15-10.44.33:997][  0]LogInit: Texture streaming: Enabled
+[2019.08.15-10.44.34:025][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.15-10.44.34:046][  0]LogInit: Transaction tracking system initialized
+[2019.08.15-10.44.34:089][  0]BlueprintLog: New page: Editor Load
+[2019.08.15-10.44.34:260][  0]LocalizationService: Localization service is disabled
+[2019.08.15-10.44.34:788][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/' took 0.03s
+[2019.08.15-10.44.34:788][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.15-10.44.34:788][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.15-10.44.34:788][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.08.15-10.44.34:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.15-10.44.34:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.15-10.44.34:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.15-10.44.34:788][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.15-10.44.34:952][  0]SourceControl: Source control is disabled
+[2019.08.15-10.44.34:953][  0]Cmd: MAP LOAD FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.15-10.44.34:953][  0]LightingResults: New page: Lighting Build
+[2019.08.15-10.44.34:958][  0]MapCheck: New page: Map Check
+[2019.08.15-10.44.34:958][  0]LightingResults: New page: Lighting Build
+[2019.08.15-10.44.35:739][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.08.15-10.44.35:758][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.15-10.44.35:787][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.15-10.44.35:787][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.093ms to complete.
+[2019.08.15-10.44.35:787][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.835
+[2019.08.15-10.44.35:915][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-10.44.35:924][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-10.44.35:932][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-10.44.35:941][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.15-10.44.35:956][  0]LogCollectionManager: Loaded 0 collections in 0.003747 seconds
+[2019.08.15-10.44.35:986][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Collections/' took 0.01s
+[2019.08.15-10.44.35:986][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Developers/kryst/Collections/' took 0.00s
+[2019.08.15-10.44.35:986][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Collections/' took 0.00s
+[2019.08.15-10.44.35:986][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.08.15-10.44.35:997][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2656 classes and 623 folders.
+[2019.08.15-10.44.36:017][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.08.15-10.44.36:024][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:030][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:033][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:035][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:038][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:041][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:042][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:044][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:046][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:047][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:049][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:051][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:052][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:054][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:056][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:058][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:059][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:061][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:063][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:064][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:066][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:069][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:071][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.08.15-10.44.36:181][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.15-10.44.36:195][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.08.15-10.44.36:518][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.15-10.44.36:520][  0]LogSlate: Took 0.000220 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.15-10.44.36:529][  0]LogSlate: Took 0.000789 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.15-10.44.36:632][  0]LogRenderer: Reallocating scene render targets to support 1028x632 Format 10 NumSamples 1 (Frame:1).
+[2019.08.15-10.44.36:784][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.08.15-10.44.36:784][  0]LogLoad: (Engine Initialization) Total time: 13.87 seconds
+[2019.08.15-10.44.36:784][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.15-10.44.36:878][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.15-10.44.36:914][  0]LogSlate: Took 0.001269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.15-10.44.36:956][  1]LogAssetRegistry: Asset discovery search completed in 8.2439 seconds
+[2019.08.15-10.44.36:958][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.15-10.44.36:958][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000057 seconds (updated 0 objects)
+[2019.08.15-10.49.49:085][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.15-10.49.57:417][697]LogSlate: Took 0.000988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.15-10.50.09:444][412]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.15-10.50.09:452][412]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Blueprints/BP_Guard.BP_Guard
+[2019.08.15-10.50.09:956][412]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 117 classes and 0 folders.
+[2019.08.15-10.50.10:736][412]LogSlate: Took 0.001075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.15-10.59.45:236][383]LogSlate: Window 'BP_Guard' being destroyed
+[2019.08.15-10.59.45:240][383]LogSlate: Window 'BP_Guard' being destroyed
+[2019.08.15-10.59.47:047][442]Candidate modules for hot reload:
+[2019.08.15-10.59.47:047][442]  FPSStealth
+[2019.08.15-10.59.47:047][442]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,4043 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-10.59.47:056][442]Warning: Starting HotReload took  0.1s.
+[2019.08.15-11.02.05:596][239]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:02:05 PM
+[2019.08.15-11.02.05:597][239]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.02.05:597][239]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
+[2019.08.15-11.02.05:597][239]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.02.05:597][239]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.02.05:597][239]CompilerResultsLog: Parsing headers for FPSStealthEditor
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\FPSStealth.uproject" "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\FPSStealthEditor\Development\FPSStealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-11.02.05:597][239]CompilerResultsLog: Reflection code generated for FPSStealthEditor in 12,2454617 seconds
+[2019.08.15-11.02.05:597][239]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:   [1/4] AIGuard.cpp
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(26) : error C2660: 'AAIGuard::GoToNextPoint': la funci?n no acepta 0 argumentos
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Public\AIGuard.h(65): note: vea la declaraci?n de 'AAIGuard::GoToNextPoint'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(100) : error C2511: 'void AAIGuard::GoToNextPoint(void)': la funci?n miembro sobrecargada no se ha encontrado en 'AAIGuard'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Public\AIGuard.h(21): note: vea la declaraci?n de 'AAIGuard'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(101) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::nextPointInPatrol'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(101) : error C3867: 'AAIGuard::nextPointInPatrol': sintaxis no est?ndar; utilice '&' para crear un puntero al miembro
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(101) : error C2105: '++' necesita valor L
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(104) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::nextPointInPatrol'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::nextPointInPatrol'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::patrolPoints'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C3867: 'AAIGuard::patrolPoints': sintaxis no est?ndar; utilice '&' para crear un puntero al miembro
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C3867: 'AAIGuard::nextPointInPatrol': sintaxis no est?ndar; utilice '&' para crear un puntero al miembro
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2568: '[': no se puede resolver la sobrecarga de funciones
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111) : error C2664: 'EPathFollowingRequestResult::Type AAIController::MoveToLocation(const FVector &,float,bool,bool,bool,bool,TSubclassOf<UNavigationQueryFilter>,bool)': el argumento 1 no puede convertirse de 'AActor *' a 'const FVector &'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Raz?n: no se puede realizar la conversi?n de 'AActor *' a 'const FVector'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Ning?n constructor ha podido aceptar el tipo de origen o bien la resoluci?n de sobrecarga del constructor era ambigua
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122) : error C2440: '=': no se puede realizar la conversi?n de 'FVector' a 'float'
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122): note: No hay disponible ning?n operador de conversi?n definido por el usuario que pueda realizar esta conversi?n, o bien no se puede llamar al operador
+[2019.08.15-11.02.05:597][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(125) : error C2660: 'AAIGuard::GoToNextPoint': la funci?n no acepta 0 argumentos
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Public\AIGuard.h(65): note: vea la declaraci?n de 'AAIGuard::GoToNextPoint'
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2819: el tipo 'FTransform' no tiene un miembro sobrecargado 'operator ->'
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130): note: ?deseaba utilizar '.' en su lugar?
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2039: 'GetActorLocation': no es un miembro de 'FTransform'
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:   [2/4] AIGuard.gen.cpp
+[2019.08.15-11.02.05:598][239]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-4043.dll
+[2019.08.15-11.02.05:598][239]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.08.15-11.02.05:598][239]CompilerResultsLog: Total build time: 138,07 seconds (Parallel executor: 0,00 seconds)
+[2019.08.15-11.02.05:598][239]LogMainFrame: MainFrame: Module compiling took 138.579 seconds
+[2019.08.15-11.02.05:598][239]Warning: HotReload failed, recompile failed
+[2019.08.15-11.03.06:253][599]Candidate modules for hot reload:
+[2019.08.15-11.03.06:253][599]  FPSStealth
+[2019.08.15-11.03.06:253][599]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,7403 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-11.03.06:260][599]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.03.11:286][728]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:03:11 PM
+[2019.08.15-11.03.11:286][728]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.03.11:286][728]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.03.11:286][728]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.08.15-11.03.11:286][728]CompilerResultsLog:   [1/3] AIGuard.cpp
+[2019.08.15-11.03.11:286][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(26) : error C2660: 'AAIGuard::GoToNextPoint': la funci?n no acepta 0 argumentos
+[2019.08.15-11.03.11:286][728]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Public\AIGuard.h(65): note: vea la declaraci?n de 'AAIGuard::GoToNextPoint'
+[2019.08.15-11.03.11:286][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(100) : error C2511: 'void AAIGuard::GoToNextPoint(void)': la funci?n miembro sobrecargada no se ha encontrado en 'AAIGuard'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Public\AIGuard.h(21): note: vea la declaraci?n de 'AAIGuard'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(101) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::nextPointInPatrol'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(101) : error C3867: 'AAIGuard::nextPointInPatrol': sintaxis no est?ndar; utilice '&' para crear un puntero al miembro
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(101) : error C2105: '++' necesita valor L
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(104) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::nextPointInPatrol'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::nextPointInPatrol'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2597: referencia no v?lida a miembro no static 'AAIGuard::patrolPoints'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C3867: 'AAIGuard::patrolPoints': sintaxis no est?ndar; utilice '&' para crear un puntero al miembro
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C3867: 'AAIGuard::nextPointInPatrol': sintaxis no est?ndar; utilice '&' para crear un puntero al miembro
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2568: '[': no se puede resolver la sobrecarga de funciones
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111) : error C2664: 'EPathFollowingRequestResult::Type AAIController::MoveToLocation(const FVector &,float,bool,bool,bool,bool,TSubclassOf<UNavigationQueryFilter>,bool)': el argumento 1 no puede convertirse de 'AActor *' a 'const FVector &'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Raz?n: no se puede realizar la conversi?n de 'AActor *' a 'const FVector'
+[2019.08.15-11.03.11:287][728]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Ning?n constructor ha podido aceptar el tipo de origen o bien la resoluci?n de sobrecarga del constructor era ambigua
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122) : error C2440: '=': no se puede realizar la conversi?n de 'FVector' a 'float'
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122): note: No hay disponible ning?n operador de conversi?n definido por el usuario que pueda realizar esta conversi?n, o bien no se puede llamar al operador
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(125) : error C2660: 'AAIGuard::GoToNextPoint': la funci?n no acepta 0 argumentos
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Public\AIGuard.h(65): note: vea la declaraci?n de 'AAIGuard::GoToNextPoint'
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2819: el tipo 'FTransform' no tiene un miembro sobrecargado 'operator ->'
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130): note: ?deseaba utilizar '.' en su lugar?
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2039: 'GetActorLocation': no es un miembro de 'FTransform'
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.03.11:288][728]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-7403.dll
+[2019.08.15-11.03.11:288][728]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.08.15-11.03.11:288][728]CompilerResultsLog: Total build time: 4,33 seconds (Parallel executor: 0,00 seconds)
+[2019.08.15-11.03.11:288][728]LogMainFrame: MainFrame: Module compiling took 5.038 seconds
+[2019.08.15-11.03.11:288][728]Warning: HotReload failed, recompile failed
+[2019.08.15-11.03.43:760][444]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.03.43:766][444]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.03.44:692][499]Candidate modules for hot reload:
+[2019.08.15-11.03.44:692][499]  FPSStealth
+[2019.08.15-11.03.44:692][499]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,4483 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-11.03.44:729][499]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.04.06:237][621]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:04:06 PM
+[2019.08.15-11.04.06:238][621]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.04.06:238][621]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
+[2019.08.15-11.04.06:238][621]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.04.06:238][621]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.04.06:238][621]CompilerResultsLog: Parsing headers for FPSStealthEditor
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\FPSStealth.uproject" "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\FPSStealthEditor\Development\FPSStealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.08.15-11.04.06:238][621]CompilerResultsLog: Reflection code generated for FPSStealthEditor in 11,3522314 seconds
+[2019.08.15-11.04.06:238][621]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   [1/4] AIGuard.cpp
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(102) : error C3867: 'TArray<AActor *,FDefaultAllocator>::Num': sintaxis no est?ndar; utilice '&' para crear un puntero al miembro
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(102) : error C2446: >=': no hay conversi?n de 'int32 (__cdecl TArray<AActor *,FDefaultAllocator>::* )(void) const' en 'int'
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(102): note: No existe un contexto en el que sea posible realizar esta conversi?n
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2664: 'EPathFollowingRequestResult::Type AAIController::MoveToLocation(const FVector &,float,bool,bool,bool,bool,TSubclassOf<UNavigationQueryFilter>,bool)': el argumento 1 no puede convertirse de 'AActor *' a 'const FVector &'
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106): note: Raz?n: no se puede realizar la conversi?n de 'AActor *' a 'const FVector'
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106): note: Ning?n constructor ha podido aceptar el tipo de origen o bien la resoluci?n de sobrecarga del constructor era ambigua
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111) : error C2664: 'EPathFollowingRequestResult::Type AAIController::MoveToLocation(const FVector &,float,bool,bool,bool,bool,TSubclassOf<UNavigationQueryFilter>,bool)': el argumento 1 no puede convertirse de 'AActor *' a 'const FVector &'
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Raz?n: no se puede realizar la conversi?n de 'AActor *' a 'const FVector'
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Ning?n constructor ha podido aceptar el tipo de origen o bien la resoluci?n de sobrecarga del constructor era ambigua
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122) : error C2440: '=': no se puede realizar la conversi?n de 'FVector' a 'float'
+[2019.08.15-11.04.06:238][621]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122): note: No hay disponible ning?n operador de conversi?n definido por el usuario que pueda realizar esta conversi?n, o bien no se puede llamar al operador
+[2019.08.15-11.04.06:239][621]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2819: el tipo 'FTransform' no tiene un miembro sobrecargado 'operator ->'
+[2019.08.15-11.04.06:239][621]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.04.06:239][621]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130): note: ?deseaba utilizar '.' en su lugar?
+[2019.08.15-11.04.06:239][621]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2039: 'GetActorLocation': no es un miembro de 'FTransform'
+[2019.08.15-11.04.06:239][621]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.04.06:239][621]CompilerResultsLog:   [2/4] AIGuard.gen.cpp
+[2019.08.15-11.04.06:239][621]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-4483.dll
+[2019.08.15-11.04.06:239][621]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.08.15-11.04.06:239][621]CompilerResultsLog: Total build time: 20,85 seconds (Parallel executor: 0,00 seconds)
+[2019.08.15-11.04.06:239][621]LogMainFrame: MainFrame: Module compiling took 21.552 seconds
+[2019.08.15-11.04.06:239][621]Warning: HotReload failed, recompile failed
+[2019.08.15-11.07.29:646][897]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.07.29:648][897]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.07.31:005][951]Candidate modules for hot reload:
+[2019.08.15-11.07.31:005][951]  FPSStealth
+[2019.08.15-11.07.31:006][951]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,513 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-11.07.31:013][951]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:07:38 PM
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog:   [1/3] AIGuard.cpp
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106) : error C2664: 'EPathFollowingRequestResult::Type AAIController::MoveToLocation(const FVector &,float,bool,bool,bool,bool,TSubclassOf<UNavigationQueryFilter>,bool)': el argumento 1 no puede convertirse de 'AActor *' a 'const FVector &'
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106): note: Raz?n: no se puede realizar la conversi?n de 'AActor *' a 'const FVector'
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(106): note: Ning?n constructor ha podido aceptar el tipo de origen o bien la resoluci?n de sobrecarga del constructor era ambigua
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111) : error C2664: 'EPathFollowingRequestResult::Type AAIController::MoveToLocation(const FVector &,float,bool,bool,bool,bool,TSubclassOf<UNavigationQueryFilter>,bool)': el argumento 1 no puede convertirse de 'AActor *' a 'const FVector &'
+[2019.08.15-11.07.38:882][ 41]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Raz?n: no se puede realizar la conversi?n de 'AActor *' a 'const FVector'
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(111): note: Ning?n constructor ha podido aceptar el tipo de origen o bien la resoluci?n de sobrecarga del constructor era ambigua
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122) : error C2440: '=': no se puede realizar la conversi?n de 'FVector' a 'float'
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122): note: No hay disponible ning?n operador de conversi?n definido por el usuario que pueda realizar esta conversi?n, o bien no se puede llamar al operador
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2819: el tipo 'FTransform' no tiene un miembro sobrecargado 'operator ->'
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130): note: ?deseaba utilizar '.' en su lugar?
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2039: 'GetActorLocation': no es un miembro de 'FTransform'
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-513.dll
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.08.15-11.07.38:883][ 41]CompilerResultsLog: Total build time: 7,31 seconds (Parallel executor: 0,00 seconds)
+[2019.08.15-11.07.38:883][ 41]LogMainFrame: MainFrame: Module compiling took 7.880 seconds
+[2019.08.15-11.07.38:883][ 41]Warning: HotReload failed, recompile failed
+[2019.08.15-11.07.43:559][221]LogVSAccessor: Warning: Couldn't goto line number '106' in 'D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp'
+[2019.08.15-11.08.54:603][159]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.08.54:605][159]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.08.55:930][195]Candidate modules for hot reload:
+[2019.08.15-11.08.55:930][195]  FPSStealth
+[2019.08.15-11.08.55:930][195]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,9669 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-11.08.55:938][195]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.09.05:007][740]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:09:05 PM
+[2019.08.15-11.09.05:007][740]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.09.05:007][740]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
+[2019.08.15-11.09.05:007][740]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.09.05:007][740]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.09.05:007][740]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.08.15-11.09.05:007][740]CompilerResultsLog:   [1/3] AIGuard.cpp
+[2019.08.15-11.09.05:007][740]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122) : error C2440: '=': no se puede realizar la conversi?n de 'FVector' a 'float'
+[2019.08.15-11.09.05:007][740]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(122): note: No hay disponible ning?n operador de conversi?n definido por el usuario que pueda realizar esta conversi?n, o bien no se puede llamar al operador
+[2019.08.15-11.09.05:008][740]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2819: el tipo 'FTransform' no tiene un miembro sobrecargado 'operator ->'
+[2019.08.15-11.09.05:008][740]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.09.05:008][740]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130): note: ?deseaba utilizar '.' en su lugar?
+[2019.08.15-11.09.05:008][740]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2039: 'GetActorLocation': no es un miembro de 'FTransform'
+[2019.08.15-11.09.05:008][740]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.09.05:008][740]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-9669.dll
+[2019.08.15-11.09.05:008][740]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.08.15-11.09.05:008][740]CompilerResultsLog: Total build time: 8,70 seconds (Parallel executor: 0,00 seconds)
+[2019.08.15-11.09.05:008][740]LogMainFrame: MainFrame: Module compiling took 9.082 seconds
+[2019.08.15-11.09.05:008][740]Warning: HotReload failed, recompile failed
+[2019.08.15-11.10.33:930][634]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.10.33:933][634]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.10.35:008][698]Candidate modules for hot reload:
+[2019.08.15-11.10.35:008][698]  FPSStealth
+[2019.08.15-11.10.35:008][698]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,2446 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-11.10.35:016][698]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:10:45 PM
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.08.15-11.10.45:248][776]CompilerResultsLog:   [1/3] AIGuard.cpp
+[2019.08.15-11.10.45:248][776]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2819: el tipo 'FTransform' no tiene un miembro sobrecargado 'operator ->'
+[2019.08.15-11.10.45:248][776]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.10.45:248][776]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130): note: ?deseaba utilizar '.' en su lugar?
+[2019.08.15-11.10.45:248][776]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2039: 'GetActorLocation': no es un miembro de 'FTransform'
+[2019.08.15-11.10.45:248][776]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-2446.dll
+[2019.08.15-11.10.45:248][776]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.08.15-11.10.45:248][776]CompilerResultsLog: Total build time: 9,55 seconds (Parallel executor: 0,00 seconds)
+[2019.08.15-11.10.45:248][776]LogMainFrame: MainFrame: Module compiling took 10.244 seconds
+[2019.08.15-11.10.45:248][776]Warning: HotReload failed, recompile failed
+[2019.08.15-11.11.32:405][342]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.11.32:411][342]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.11.33:217][390]Candidate modules for hot reload:
+[2019.08.15-11.11.33:217][390]  FPSStealth
+[2019.08.15-11.11.33:217][390]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,7656 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-11.11.33:224][390]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.11.43:288][609]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:11:43 PM
+[2019.08.15-11.11.43:288][609]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.11.43:288][609]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
+[2019.08.15-11.11.43:288][609]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.11.43:288][609]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.11.43:288][609]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.08.15-11.11.43:288][609]CompilerResultsLog:   [1/3] AIGuard.cpp
+[2019.08.15-11.11.43:288][609]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2819: el tipo 'FTransform' no tiene un miembro sobrecargado 'operator ->'
+[2019.08.15-11.11.43:288][609]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.11.43:288][609]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130): note: ?deseaba utilizar '.' en su lugar?
+[2019.08.15-11.11.43:288][609]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(130) : error C2039: 'GetActorLocation': no es un miembro de 'FTransform'
+[2019.08.15-11.11.43:288][609]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.21\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(15): note: vea la declaraci?n de 'FTransform'
+[2019.08.15-11.11.43:288][609]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-7656.dll
+[2019.08.15-11.11.43:289][609]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.08.15-11.11.43:289][609]CompilerResultsLog: Total build time: 9,52 seconds (Parallel executor: 0,00 seconds)
+[2019.08.15-11.11.43:289][609]LogMainFrame: MainFrame: Module compiling took 10.076 seconds
+[2019.08.15-11.11.43:289][609]Warning: HotReload failed, recompile failed
+[2019.08.15-11.13.14:590][ 29]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.13.14:597][ 29]LogSlate: Window 'Message Log' being destroyed
+[2019.08.15-11.13.15:653][ 92]Candidate modules for hot reload:
+[2019.08.15-11.13.15:653][ 92]  FPSStealth
+[2019.08.15-11.13.15:653][ 92]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,2383 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
+[2019.08.15-11.13.15:660][ 92]Warning: Starting HotReload took  0.0s.
+[2019.08.15-11.13.28:855][750]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:13:28 PM
+[2019.08.15-11.13.28:855][750]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
+[2019.08.15-11.13.28:855][750]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
+[2019.08.15-11.13.28:855][750]CompilerResultsLog: Compiling game modules for hot reload
+[2019.08.15-11.13.28:855][750]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.08.15-11.13.28:855][750]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.08.15-11.13.28:855][750]CompilerResultsLog:   [1/3] AIGuard.cpp
+[2019.08.15-11.13.28:855][750]CompilerResultsLog:   [2/3] UE4Editor-FPSStealth-2383.lib
+[2019.08.15-11.13.28:855][750]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-2383.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-2383.exp
+[2019.08.15-11.13.28:855][750]CompilerResultsLog:   [3/3] UE4Editor-FPSStealth-2383.dll
+[2019.08.15-11.13.28:855][750]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-2383.suppressed.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-2383.suppressed.exp
+[2019.08.15-11.13.28:855][750]CompilerResultsLog: Total build time: 12,82 seconds (Parallel executor: 5,54 seconds)
+[2019.08.15-11.13.28:855][750]LogMainFrame: MainFrame: Module compiling took 13.207 seconds
+[2019.08.15-11.13.29:150][750]LogClass: Could not find existing class AIGuard in package /Script/FPSStealth for HotReload, assuming new class
+[2019.08.15-11.13.29:150][750]LogClass: Function OnNoiseHeard is new.
+[2019.08.15-11.13.29:150][750]LogClass: Function OnPawnSeen is new.
+[2019.08.15-11.13.29:150][750]LogClass: Function ResumePatrol is new.
+[2019.08.15-11.13.29:156][750]LogClass: EAIState HotReload.
+[2019.08.15-11.13.29:172][750]LogHotReload: Re-instancing AIGuard after hot-reload.
+[2019.08.15-11.13.29:519][750]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0005 seconds. Added 5 classes and 3 folders.
+[2019.08.15-11.13.29:522][750]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.08.15-11.13.29:940][750]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2657 classes and 625 folders.
+[2019.08.15-11.13.29:940][750]Display: HotReload took 14.3s.
+[2019.08.15-11.13.33:423][956]LogTemp: Repeating last play command: Selected Viewport
+[2019.08.15-11.13.33:449][956]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.08.15-11.13.33:449][956]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.08.15-11.13.33:449][956]PIE: New page: PIE session: FirstPersonExampleMap (Aug 15, 2019, 3:13:33 PM)
+[2019.08.15-11.13.33:462][956]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.08.15-11.13.33:487][956]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024933s)
+[2019.08.15-11.13.33:488][956]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.08.15-11.13.33:488][956]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2019.08.15-11.13.33:488][956]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.025949s)
+[2019.08.15-11.13.33:562][956]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.08.15-11.13.33:625][956]LogInit: FAudioDevice initialized.
+[2019.08.15-11.13.33:671][956]LogLoad: Game class is 'BP_StealthGameMode_C'
+[2019.08.15-11.13.33:675][956]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.08.15-13.13.33
+[2019.08.15-11.13.33:679][956]LogWorld: Bringing up level for play took: 0.006087
+[2019.08.15-11.13.33:740][956]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 20 classes and 0 folders.
+[2019.08.15-11.13.44:617][956]LogWindows: Error: === Critical error: ===
+[2019.08.15-11.13.44:617][956]LogWindows: Error: 
+[2019.08.15-11.13.44:617][956]LogWindows: Error: Fatal error!
+[2019.08.15-11.13.44:617][956]LogWindows: Error: 
+[2019.08.15-11.13.44:617][956]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000004b8
+[2019.08.15-11.13.44:617][956]LogWindows: Error: 
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffaae67c00c UE4Editor-AIModule.dll!AAIController::MoveToLocation() [d:\build\++ue4\sync\engine\source\runtime\aimodule\private\aicontroller.cpp:577]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffb0bdc8574 UE4Editor-FPSStealth-2383.dll!AAIGuard::GoToNextPoint() [d:\documentos\github\prototypestealthgame\fpsstealth\source\fpsstealth\private\aiguard.cpp:107]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffaaf5d3c95 UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3230]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffab0a2060c UE4Editor-Engine.dll!AWorldSettings::NotifyBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\worldsettings.cpp:251]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffaafddeb41 UE4Editor-Engine.dll!AGameStateBase::HandleBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gamestatebase.cpp:177]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffab09c865e UE4Editor-Engine.dll!UWorld::BeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\world.cpp:3737]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffaafd7c1f1 UE4Editor-Engine.dll!UGameInstance::StartPlayInEditorGameInstance() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gameinstance.cpp:408]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffabedfac89 UE4Editor-UnrealEd.dll!UEditorEngine::CreatePIEGameInstance() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:3324]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffabee1b350 UE4Editor-UnrealEd.dll!UEditorEngine::PlayInEditor() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:2451]
+[2019.08.15-11.13.44:617][956]LogWindows: Error: [Callstack] 0x00007ffabee392e6 UE4Editor-UnrealEd.dll!UEditorEngine::StartQueuedPlayMapRequest() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\playlevel.cpp:1270]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ffabe831891 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1640]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ffabf152346 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ff709cf6225 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3699]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ff709d0596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ff709d059ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ff709d148da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ff709d1659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ffb15a97974 KERNEL32.DLL!UnknownFunction []
+[2019.08.15-11.13.44:618][956]LogWindows: Error: [Callstack] 0x00007ffb15bda271 ntdll.dll!UnknownFunction []
+[2019.08.15-11.13.44:618][956]LogWindows: Error: 
+[2019.08.15-11.13.44:634][956]LogExit: Executing StaticShutdownAfterError
+[2019.08.15-11.13.44:638][956]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.08.15-11.13.44:650][956]Log file closed, 08/15/19 13:13:44

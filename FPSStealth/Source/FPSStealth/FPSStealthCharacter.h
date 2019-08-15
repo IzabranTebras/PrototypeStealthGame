@@ -7,6 +7,7 @@
 #include "FPSStealthCharacter.generated.h"
 
 class UInputComponent;
+class UPawnNoiseEmitterComponent;
 
 UCLASS(config=Game)
 class AFPSStealthCharacter : public ACharacter
@@ -50,6 +51,10 @@ public:
 
 protected:
 	virtual void BeginPlay();
+
+	/* Sound emitter component*/
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "AI")
+	UPawnNoiseEmitterComponent* noiseEmitterComponent;
 
 public:
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */

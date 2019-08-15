@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class APawn;
 #ifdef FPSSTEALTH_FPSStealthGameMode_generated_h
 #error "FPSStealthGameMode.generated.h already included, missing '#pragma once' in FPSStealthGameMode.h"
 #endif
@@ -15,6 +16,15 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_RPC_WRAPPERS
 #define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_EVENT_PARMS \
+	struct FPSStealthGameMode_eventOnCompleteMission_Parms \
+	{ \
+		APawn* pawnInside; \
+		bool success; \
+	};
+
+
+#define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_CALLBACK_WRAPPERS
 #define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAFPSStealthGameMode(); \
@@ -57,13 +67,20 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AFPSStealthGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AFPSStealthGameMode)
 
 
-#define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_PRIVATE_PROPERTY_OFFSET
-#define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_9_PROLOG
+#define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__spectatingViewportClass() { return STRUCT_OFFSET(AFPSStealthGameMode, spectatingViewportClass); }
+
+
+#define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_9_PROLOG \
+	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_EVENT_PARMS
+
+
 #define FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_RPC_WRAPPERS \
+	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_CALLBACK_WRAPPERS \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_INCLASS \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -75,6 +92,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_CALLBACK_WRAPPERS \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_INCLASS_NO_PURE_DECLS \
 	FPSStealth_Source_FPSStealth_FPSStealthGameMode_h_12_ENHANCED_CONSTRUCTORS \
 private: \
