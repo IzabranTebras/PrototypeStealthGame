@@ -1,4 +1,4 @@
-﻿Log file open, 08/15/19 13:14:19
+﻿Log file open, 09/16/19 20:23:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: FPSStealth
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.350075
+LogStats: Stats thread started at 0.292045
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -94,7 +94,7 @@ LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WebMMoviePlayer
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.123s to configure plugins.
+LogStreaming: Display: Took  0.086s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -154,919 +154,523 @@ LogInit: Presizing for max 8388607 objects, including 0 objects not considered b
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
-[2019.08.15-11.14.19:999][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.08.15-11.14.19:999][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.08.15-11.14.20:000][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
-[2019.08.15-11.14.20:000][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
-[2019.08.15-11.14.20:004][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:004][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.15-11.14.20:004][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.15-11.14.20:004][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:004][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.15-11.14.20:005][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:005][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.15-11.14.20:006][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.15-11.14.20:006][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.15-11.14.20:006][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.08.15-11.14.20:014][  0]LogHAL: Display: Platform has ~ 24 GB [25647157248 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
-[2019.08.15-11.14.20:014][  0]LogInit: Going up to parent DeviceProfile []
-[2019.08.15-11.14.20:014][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.08.15-11.14.20:014][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.08.15-11.14.20:015][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.08.15-11.14.20:016][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.08.15-11.14.20:016][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
-[2019.08.15-11.14.20:016][  0]LogInit: Computer: BAHAMUT
-[2019.08.15-11.14.20:016][  0]LogInit: User: kryst
-[2019.08.15-11.14.20:016][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.08.15-11.14.20:016][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.08.15-11.14.20:016][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
-[2019.08.15-11.14.20:016][  0]LogMemory: Platform Memory Stats for Windows
-[2019.08.15-11.14.20:016][  0]LogMemory: Process Physical Memory: 102.27 MB used, 102.28 MB peak
-[2019.08.15-11.14.20:016][  0]LogMemory: Process Virtual Memory: 91.23 MB used, 91.23 MB peak
-[2019.08.15-11.14.20:016][  0]LogMemory: Physical Memory: 9283.38 MB used,  15175.66 MB free, 24459.04 MB total
-[2019.08.15-11.14.20:016][  0]LogMemory: Virtual Memory: 4635.65 MB used,  134213096.00 MB free, 134217728.00 MB total
-[2019.08.15-11.14.20:051][  0]LogInit: Overriding language with editor language configuration option (en).
-[2019.08.15-11.14.20:051][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2019.08.15-11.14.20:534][  0]LogStreaming: Display: Took  0.483s to InitEngineTextLocalization.
-[2019.08.15-11.14.20:535][  0]LogInit: Setting process to per monitor DPI aware
-[2019.08.15-11.14.20:598][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.08.15-11.14.20:598][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.08.15-11.14.20:942][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.15-11.14.20:942][  0]LogD3D11RHI: D3D11 adapters:
-[2019.08.15-11.14.21:047][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2019.08.15-11.14.21:047][  0]LogD3D11RHI:       8081/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.08.15-11.14.21:065][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.08.15-11.14.21:065][  0]LogD3D11RHI:       128/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.08.15-11.14.21:067][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.08.15-11.14.21:067][  0]LogD3D11RHI:       0/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.08.15-11.14.21:067][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.08.15-11.14.21:108][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.08.15-11.14.21:109][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
-[2019.08.15-11.14.21:109][  0]LogWindows: EnumDisplayDevices:
-[2019.08.15-11.14.21:109][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2019.08.15-11.14.21:109][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.08.15-11.14.21:110][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.08.15-11.14.21:110][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.08.15-11.14.21:110][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.08.15-11.14.21:111][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.08.15-11.14.21:112][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2019.08.15-11.14.21:112][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.08.15-11.14.21:112][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2019.08.15-11.14.21:112][  0]LogD3D11RHI:   Driver Version: 431.60 (internal:26.21.14.3160, unified:431.60)
-[2019.08.15-11.14.21:112][  0]LogD3D11RHI:      Driver Date: 7-17-2019
-[2019.08.15-11.14.21:112][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
-[2019.08.15-11.14.21:187][  0]LogD3D11RHI: Async texture creation enabled
-[2019.08.15-11.14.21:205][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.08.15-11.14.21:633][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.08.15-11.14.21:650][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.08.15-11.14.21:666][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.08.15-11.14.21:685][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.08.15-11.14.21:701][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.08.15-11.14.21:717][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.08.15-11.14.21:733][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.08.15-11.14.21:749][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.08.15-11.14.21:757][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.08.15-11.14.21:848][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:848][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:848][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:848][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:848][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:849][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.08.15-11.14.21:851][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.08.15-11.14.21:913][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.08.15-11.14.21:913][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.08.15-11.14.21:934][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.08.15-11.14.21:934][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.08.15-11.14.21:948][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.08.15-11.14.21:960][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.08.15-11.14.21:972][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.08.15-11.14.21:986][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.08.15-11.14.22:029][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.08.15-11.14.22:029][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.08.15-11.14.22:030][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.08.15-11.14.22:120][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Intermediate/Shaders/WorkingDirectory/8172/).
-[2019.08.15-11.14.22:120][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kryst/AppData/Local/Temp/UnrealShaderWorkingDir/59A3D92346A5DE7E265FA08ED15BAE12/'.
-[2019.08.15-11.14.22:124][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.08.15-11.14.22:124][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.08.15-11.14.22:124][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.08.15-11.14.22:696][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.08.15-11.14.22:756][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.08.15-11.14.22:757][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
-[2019.08.15-11.14.22:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.08.15-11.14.22:757][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.08.15-11.14.22:757][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.15-11.14.22:757][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.08.15-11.14.22:773][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.08.15-11.14.22:773][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.08.15-11.14.22:773][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.08.15-11.14.22:785][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kryst/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.08.15-11.14.22:785][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.08.15-11.14.22:785][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.08.15-11.14.22:809][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.08.15-11.14.22:810][  0]LogSlate: Using FreeType 2.6.0
-[2019.08.15-11.14.22:811][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.08.15-11.14.22:911][  0]LogAssetRegistry: FAssetRegistry took 0.0326 seconds to start up
-[2019.08.15-11.14.23:258][  0]LogInit: Selected Device Profile: [Windows]
-[2019.08.15-11.14.23:423][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.08.15-11.14.23:429][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.08.15-11.14.23:429][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.08.15-11.14.23:429][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.08.15-11.14.23:429][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.08.15-11.14.23:450][  0]LogNetVersion: FPSStealth 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3402079695)
-[2019.08.15-11.14.23:943][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.037700 seconds
-[2019.08.15-11.14.23:950][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
-[2019.08.15-11.14.23:950][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
-[2019.08.15-11.14.23:950][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.08.15-11.14.25:054][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.08.15-11.14.25:068][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.08.15-11.14.26:278][  0]SourceControl: Source control is disabled
-[2019.08.15-11.14.26:278][  0]SourceControl: Source control is disabled
-[2019.08.15-11.14.26:280][  0]SourceControl: Source control is disabled
-[2019.08.15-11.14.26:281][  0]SourceControl: Source control is disabled
-[2019.08.15-11.14.26:460][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.08.15-11.14.26:528][  0]LogOcInput: OculusInput pre-init called
-[2019.08.15-11.14.26:683][  0]LogEngine: Initializing Engine...
-[2019.08.15-11.14.26:684][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.08.15-11.14.26:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.08.15-11.14.26:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.08.15-11.14.26:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.08.15-11.14.26:686][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.08.15-11.14.26:980][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.08.15-11.14.27:010][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.08.15-11.14.27:023][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.08.15-11.14.27:114][  0]LogInit: FAudioDevice initialized.
-[2019.08.15-11.14.27:115][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.08.15-11.14.27:170][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
-[2019.08.15-11.14.27:177][  0]LogInit: Texture streaming: Enabled
-[2019.08.15-11.14.27:206][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.08.15-11.14.27:225][  0]LogInit: Transaction tracking system initialized
-[2019.08.15-11.14.27:271][  0]BlueprintLog: New page: Editor Load
-[2019.08.15-11.14.27:440][  0]LocalizationService: Localization service is disabled
-[2019.08.15-11.14.27:929][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/' took 0.02s
-[2019.08.15-11.14.27:929][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.08.15-11.14.27:929][  0]LogCook: Display: Mobile HDR setting 1
-[2019.08.15-11.14.27:929][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.08.15-11.14.27:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.08.15-11.14.27:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.08.15-11.14.27:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.08.15-11.14.27:929][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.08.15-11.14.28:107][  0]SourceControl: Source control is disabled
-[2019.08.15-11.14.28:108][  0]Cmd: MAP LOAD FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.08.15-11.14.28:108][  0]LightingResults: New page: Lighting Build
-[2019.08.15-11.14.28:113][  0]MapCheck: New page: Map Check
-[2019.08.15-11.14.28:113][  0]LightingResults: New page: Lighting Build
-[2019.08.15-11.14.28:353][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.08.15-11.14.28:366][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.08.15-11.14.28:392][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.08.15-11.14.28:392][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.089ms to complete.
-[2019.08.15-11.14.28:392][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.284
-[2019.08.15-11.14.28:497][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.14.28:507][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.14.28:516][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.14.28:524][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.14.28:535][  0]LogCollectionManager: Loaded 0 collections in 0.004386 seconds
-[2019.08.15-11.14.28:554][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Collections/' took 0.01s
-[2019.08.15-11.14.28:554][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Developers/kryst/Collections/' took 0.00s
-[2019.08.15-11.14.28:554][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Collections/' took 0.00s
-[2019.08.15-11.14.28:554][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.08.15-11.14.28:564][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2656 classes and 623 folders.
-[2019.08.15-11.14.28:578][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
-[2019.08.15-11.14.28:580][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:580][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:581][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:582][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:583][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:586][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:587][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:590][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:591][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:591][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:592][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:593][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:594][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:594][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.08.15-11.14.28:656][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.08.15-11.14.28:665][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.08.15-11.14.28:747][  0]LogSlate: Took 0.000218 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.08.15-11.14.28:749][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.08.15-11.14.28:760][  0]LogSlate: Took 0.000700 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.08.15-11.14.28:862][  0]LogRenderer: Reallocating scene render targets to support 1028x632 Format 10 NumSamples 1 (Frame:1).
-[2019.08.15-11.14.29:022][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2019.08.15-11.14.29:023][  0]LogLoad: (Engine Initialization) Total time: 12.29 seconds
-[2019.08.15-11.14.29:023][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.08.15-11.14.29:109][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.08.15-11.14.29:140][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.15-11.14.29:191][  1]LogAssetRegistry: Asset discovery search completed in 6.3031 seconds
-[2019.08.15-11.14.29:194][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.08.15-11.14.29:194][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000091 seconds (updated 0 objects)
-[2019.08.15-11.14.32:973][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.15-11.14.33:491][253]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.08.15-11.16.54:316][743]Candidate modules for hot reload:
-[2019.08.15-11.16.54:316][743]  FPSStealth
-[2019.08.15-11.16.54:316][743]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,1800 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
-[2019.08.15-11.16.54:322][743]Warning: Starting HotReload took  0.0s.
-[2019.08.15-11.17.18:217][910]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:17:18 PM
-[2019.08.15-11.17.18:218][910]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
-[2019.08.15-11.17.18:218][910]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
-[2019.08.15-11.17.18:218][910]CompilerResultsLog: Compiling game modules for hot reload
-[2019.08.15-11.17.18:218][910]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.15-11.17.18:219][910]CompilerResultsLog: Parsing headers for FPSStealthEditor
-[2019.08.15-11.17.18:219][910]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\FPSStealth.uproject" "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\FPSStealthEditor\Development\FPSStealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.15-11.17.18:219][910]CompilerResultsLog: Reflection code generated for FPSStealthEditor in 12,9285022 seconds
-[2019.08.15-11.17.18:219][910]CompilerResultsLog: Building 5 actions with 8 processes...
-[2019.08.15-11.17.18:219][910]CompilerResultsLog:   [1/5] FPSStealth.init.gen.cpp
-[2019.08.15-11.17.18:219][910]CompilerResultsLog:   [2/5] AIGuard.cpp
-[2019.08.15-11.17.18:219][910]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23) : error C2563: hay una falta de correspondencia en la lista de par?metros formales
-[2019.08.15-11.17.18:219][910]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23) : error C2568: '=': no se puede resolver la sobrecarga de funciones
-[2019.08.15-11.17.18:219][910]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23): note: puede ser 'T *Cast(FLinker *)'
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23): note: o       'const T *Cast(const U *)'
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23): note: o       'T *Cast(const TSubclassOf<U> &)'
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23): note: o       'T *Cast(const FSubobjectPtr &)'
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23): note: o       'T *Cast(const TWeakObjectPtr<UserClass,FWeakObjectPtr> &)'
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:   D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23): note: o       'To *Cast(From *)'
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:    D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Source\FPSStealth\Private\AIGuard.cpp(23) : error C2146: error de sintaxis: falta ';' delante del identificador 'GetController'
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:   [3/5] AIGuard.gen.cpp
-[2019.08.15-11.17.18:220][910]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Binaries\Win64\UE4Editor-FPSStealth-1800.dll
-[2019.08.15-11.17.18:220][910]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
-[2019.08.15-11.17.18:220][910]CompilerResultsLog: Total build time: 23,28 seconds (Parallel executor: 0,00 seconds)
-[2019.08.15-11.17.18:220][910]LogMainFrame: MainFrame: Module compiling took 23.909 seconds
-[2019.08.15-11.17.18:220][910]Warning: HotReload failed, recompile failed
-[2019.08.15-11.17.50:312][549]LogSlate: Window 'Message Log' being destroyed
-[2019.08.15-11.17.50:318][549]LogSlate: Window 'Message Log' being destroyed
-[2019.08.15-11.17.51:043][592]Candidate modules for hot reload:
-[2019.08.15-11.17.51:043][592]  FPSStealth
-[2019.08.15-11.17.51:043][592]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,6444 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
-[2019.08.15-11.17.51:052][592]Warning: Starting HotReload took  0.0s.
-[2019.08.15-11.18.03:918][364]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:18:03 PM
-[2019.08.15-11.18.03:918][364]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
-[2019.08.15-11.18.03:918][364]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
-[2019.08.15-11.18.03:918][364]CompilerResultsLog: Compiling game modules for hot reload
-[2019.08.15-11.18.03:918][364]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.15-11.18.03:918][364]CompilerResultsLog: Building 3 actions with 8 processes...
-[2019.08.15-11.18.03:918][364]CompilerResultsLog:   [1/3] AIGuard.cpp
-[2019.08.15-11.18.03:918][364]CompilerResultsLog:   [2/3] UE4Editor-FPSStealth-6444.lib
-[2019.08.15-11.18.03:918][364]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-6444.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-6444.exp
-[2019.08.15-11.18.03:918][364]CompilerResultsLog:   [3/3] UE4Editor-FPSStealth-6444.dll
-[2019.08.15-11.18.03:918][364]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-6444.suppressed.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-6444.suppressed.exp
-[2019.08.15-11.18.03:918][364]CompilerResultsLog: Total build time: 12,47 seconds (Parallel executor: 4,56 seconds)
-[2019.08.15-11.18.03:918][364]LogMainFrame: MainFrame: Module compiling took 12.879 seconds
-[2019.08.15-11.18.04:412][364]LogClass: Could not find existing class AIGuard in package /Script/FPSStealth for HotReload, assuming new class
-[2019.08.15-11.18.04:412][364]LogClass: Function OnNoiseHeard is new.
-[2019.08.15-11.18.04:412][364]LogClass: Function OnPawnSeen is new.
-[2019.08.15-11.18.04:412][364]LogClass: Function ResumePatrol is new.
-[2019.08.15-11.18.04:417][364]LogClass: EAIState HotReload.
-[2019.08.15-11.18.04:425][364]LogHotReload: Re-instancing AIGuard after hot-reload.
-[2019.08.15-11.18.04:701][364]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0005 seconds. Added 5 classes and 3 folders.
-[2019.08.15-11.18.04:703][364]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
-[2019.08.15-11.18.04:837][364]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2657 classes and 625 folders.
-[2019.08.15-11.18.04:837][364]Display: HotReload took 13.8s.
-[2019.08.15-11.18.07:284][506]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.15-11.18.07:295][506]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.18.07:295][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.15-11.18.07:295][506]PIE: New page: PIE session: FirstPersonExampleMap (Aug 15, 2019, 3:18:07 PM)
-[2019.08.15-11.18.07:309][506]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.08.15-11.18.07:334][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025212s)
-[2019.08.15-11.18.07:335][506]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.08.15-11.18.07:335][506]LogPlayLevel: PIE: World Init took: (0.000726s)
-[2019.08.15-11.18.07:335][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.026296s)
-[2019.08.15-11.18.07:367][506]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.08.15-11.18.07:433][506]LogInit: FAudioDevice initialized.
-[2019.08.15-11.18.07:478][506]LogLoad: Game class is 'BP_StealthGameMode_C'
-[2019.08.15-11.18.07:481][506]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.08.15-13.18.07
-[2019.08.15-11.18.07:482][506]LogWorld: Bringing up level for play took: 0.002537
-[2019.08.15-11.18.07:542][506]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
-[2019.08.15-11.18.07:557][506]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.559
-[2019.08.15-11.18.07:558][506]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.18.34:180][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.18.34:180][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.18.34:220][100]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.15-11.18.34:220][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.18.34:254][100]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.18.34:317][102]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.08.15-11.22.47:332][973]LogHotReload: New module detected: UE4Editor-FPSStealth-9432.dll
-[2019.08.15-11.22.48:356][977]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.15-11.22.48:360][977]LogSlate: Took 0.000846 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.08.15-11.22.48:757][977]LogClass: EAIState HotReload.
-[2019.08.15-11.22.48:769][977]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0007 seconds. Added 5 classes and 3 folders.
-[2019.08.15-11.22.48:775][977]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
-[2019.08.15-11.22.48:865][977]LogContentBrowser: Native class hierarchy populated in 0.0159 seconds. Added 2657 classes and 625 folders.
-[2019.08.15-11.22.48:868][977]Display: HotReload took  0.5s.
-[2019.08.15-11.30.49:722][567]LogHotReload: New module detected: UE4Editor-FPSStealth-3556-Win64-DebugGame.dll
-[2019.08.15-11.30.51:745][574]LogHotReload: Starting Hot-Reload from IDE
-[2019.08.15-11.30.52:072][574]LogClass: EAIState HotReload.
-[2019.08.15-11.30.52:082][574]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0006 seconds. Added 5 classes and 3 folders.
-[2019.08.15-11.30.52:084][574]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
-[2019.08.15-11.30.52:166][574]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2657 classes and 625 folders.
-[2019.08.15-11.30.52:168][574]Display: HotReload took  0.4s.
-[2019.08.15-11.32.08:491][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.15-11.32.08:571][865]Candidate modules for hot reload:
-[2019.08.15-11.32.08:571][865]  FPSStealth
-[2019.08.15-11.32.08:571][865]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=FPSStealth,9910 Win64 Development -TargetType=Editor -Project="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" -canskiplink "D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/FPSStealth.uproject" ]
-[2019.08.15-11.32.08:578][865]Warning: Starting HotReload took  0.0s.
-[2019.08.15-11.32.35:152][327]CompilerResultsLog: New page: Compilation - Aug 15, 2019, 3:32:35 PM
-[2019.08.15-11.32.35:152][327]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
-[2019.08.15-11.32.35:152][327]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Documentos\GitHub\PrototypeStealthGame).
-[2019.08.15-11.32.35:152][327]CompilerResultsLog: Creating makefile for hot reloading FPSStealthEditor (source directory changed)
-[2019.08.15-11.32.35:152][327]CompilerResultsLog: Compiling game modules for hot reload
-[2019.08.15-11.32.35:152][327]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-[2019.08.15-11.32.35:153][327]CompilerResultsLog: Parsing headers for FPSStealthEditor
-[2019.08.15-11.32.35:153][327]CompilerResultsLog:   Running UnrealHeaderTool "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\FPSStealth.uproject" "D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\FPSStealthEditor\Development\FPSStealthEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-[2019.08.15-11.32.35:153][327]CompilerResultsLog: Reflection code generated for FPSStealthEditor in 14,25389 seconds
-[2019.08.15-11.32.35:153][327]CompilerResultsLog: Building 4 actions with 8 processes...
-[2019.08.15-11.32.35:153][327]CompilerResultsLog:   [1/4] AIGuard.gen.cpp
-[2019.08.15-11.32.35:153][327]CompilerResultsLog:   [2/4] AIGuard.cpp
-[2019.08.15-11.32.35:153][327]CompilerResultsLog:   [3/4] UE4Editor-FPSStealth-9910.lib
-[2019.08.15-11.32.35:153][327]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-9910.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-9910.exp
-[2019.08.15-11.32.35:153][327]CompilerResultsLog:   [4/4] UE4Editor-FPSStealth-9910.dll
-[2019.08.15-11.32.35:153][327]CompilerResultsLog:      Creando biblioteca D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-9910.suppressed.lib y objeto D:\Documentos\GitHub\PrototypeStealthGame\FPSStealth\Intermediate\Build\Win64\UE4Editor\Development\FPSStealth\UE4Editor-FPSStealth-9910.suppressed.exp
-[2019.08.15-11.32.35:153][327]CompilerResultsLog: Total build time: 26,20 seconds (Parallel executor: 3,54 seconds)
-[2019.08.15-11.32.35:153][327]LogMainFrame: MainFrame: Module compiling took 26.587 seconds
-[2019.08.15-11.32.35:441][327]LogClass: EAIState HotReload.
-[2019.08.15-11.32.35:460][327]LogContentBrowser: Native class hierarchy updated for 'FPSStealth' in 0.0006 seconds. Added 5 classes and 3 folders.
-[2019.08.15-11.32.35:462][327]Display: HotReload successful (4 functions remapped  0 scriptstructs remapped)
-[2019.08.15-11.32.35:529][327]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2657 classes and 625 folders.
-[2019.08.15-11.32.35:530][327]Display: HotReload took 27.0s.
-[2019.08.15-11.53.59:246][336]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.15-11.53.59:257][336]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.53.59:257][336]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.15-11.53.59:257][336]PIE: New page: PIE session: FirstPersonExampleMap (Aug 15, 2019, 3:53:59 PM)
-[2019.08.15-11.53.59:257][336]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.08.15-11.53.59:275][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017496s)
-[2019.08.15-11.53.59:276][336]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.08.15-11.53.59:277][336]LogPlayLevel: PIE: World Init took: (0.001551s)
-[2019.08.15-11.53.59:277][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019600s)
-[2019.08.15-11.53.59:312][336]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.08.15-11.53.59:387][336]LogInit: FAudioDevice initialized.
-[2019.08.15-11.53.59:423][336]LogLoad: Game class is 'BP_StealthGameMode_C'
-[2019.08.15-11.53.59:427][336]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.08.15-13.53.59
-[2019.08.15-11.53.59:427][336]LogWorld: Bringing up level for play took: 0.002932
-[2019.08.15-11.53.59:440][336]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.543
-[2019.08.15-11.53.59:441][336]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.54.13:775][194]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.54.13:776][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.54.13:813][194]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.15-11.54.13:813][194]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.54.13:855][194]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.54.13:905][195]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.08.15-11.54.15:804][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.15-11.54.15:870][312]LogTemp: Repeating last play command: Selected Viewport
-[2019.08.15-11.54.15:879][312]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.54.15:879][312]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.08.15-11.54.15:879][312]PIE: New page: PIE session: FirstPersonExampleMap (Aug 15, 2019, 3:54:15 PM)
-[2019.08.15-11.54.15:880][312]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
-[2019.08.15-11.54.15:896][312]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016453s)
-[2019.08.15-11.54.15:897][312]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2019.08.15-11.54.15:897][312]LogPlayLevel: PIE: World Init took: (0.001042s)
-[2019.08.15-11.54.15:897][312]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017749s)
-[2019.08.15-11.54.15:928][312]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.08.15-11.54.15:990][312]LogInit: FAudioDevice initialized.
-[2019.08.15-11.54.16:027][312]LogLoad: Game class is 'BP_StealthGameMode_C'
-[2019.08.15-11.54.16:030][312]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.08.15-13.54.16
-[2019.08.15-11.54.16:030][312]LogWorld: Bringing up level for play took: 0.002055
-[2019.08.15-11.54.16:043][312]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.061
-[2019.08.15-11.54.16:043][312]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.54.23:667][768]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.54.23:668][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.54.23:704][768]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.08.15-11.54.23:705][768]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
-[2019.08.15-11.54.23:732][768]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.08.15-11.54.23:789][770]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.08.15-11.54.25:795][889]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.08.15-11.54.26:161][893]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/FirstPersonExampleMapDDC308154B2D83151D725BA8949E3A60.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
-[2019.08.15-11.54.27:541][893]LogSavePackage: Moving 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/FirstPersonExampleMap_BuiltData14235C174CEAE80EE604CDA158DE9829.tmp' to 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.uasset'
-[2019.08.15-11.54.28:674][957]LogSlate: Window 'FPSStealth - Unreal Editor' being destroyed
-[2019.08.15-11.54.28:886][958]Cmd: QUIT_EDITOR
-[2019.08.15-11.54.29:237][958]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.08.15-11.54.29:248][958]LogExit: Preparing to exit.
-[2019.08.15-11.54.30:151][958]LogExit: Editor shut down
-[2019.08.15-11.54.30:152][958]LogExit: Transaction tracking system shut down
-[2019.08.15-11.54.30:288][958]LogExit: Object subsystem successfully closed.
-[2019.08.15-11.54.30:328][958]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.08.15-11.54.30:331][958]LogD3D11RHI: Shutdown
-[2019.08.15-11.54.30:331][958]LogD3D11RHI: CleanupD3DDevice
-[2019.08.15-11.54.30:332][958]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.08.15-11.54.30:352][958]LogModuleManager: Shutting down and abandoning module FPSStealth (632)
-[2019.08.15-11.54.30:352][958]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (629)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module Voice (627)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (624)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module SceneOutliner (622)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module AddContentDialog (620)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module WidgetCarousel (619)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module EditorWidgets (616)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module CollectionManager (614)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module StatsViewer (612)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module FoliageEdit (610)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module LandscapeEditor (608)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module MeshPaintMode (606)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (604)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module ActorPickerMode (602)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module GeometryMode (600)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module TextureAlignMode (598)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module BspMode (596)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (594)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (592)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module AutomationWorker (590)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (588)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (586)
-[2019.08.15-11.54.30:353][958]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (584)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module PlacementMode (583)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module MaterialEditor (582)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (578)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (576)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (574)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (572)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module WebMMedia (570)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (568)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (566)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module SequenceRecorder (565)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (562)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (560)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (558)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (556)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (554)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (552)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (550)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (548)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (546)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (544)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module CharacterAI (542)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module SmartSnapping (540)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module SessionServices (538)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module ViewportSnapping (536)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module ViewportInteraction (534)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module ClothPainter (532)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (531)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module LogVisualizer (528)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module IntroTutorials (526)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (525)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (522)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (520)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (518)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (516)
-[2019.08.15-11.54.30:354][958]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (515)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (512)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (510)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (508)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (506)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (504)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module InputBindingEditor (502)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module MergeActors (500)
-[2019.08.15-11.54.30:799][958]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (498)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module LocalizationService (497)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module HardwareTargeting (494)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (492)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module UndoHistory (490)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module XmlParser (488)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module Blutility (486)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (484)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (483)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (480)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module SettingsEditor (478)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module ProjectLauncher (476)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module SessionFrontend (474)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module ProfilerClient (472)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module DeviceManager (470)
-[2019.08.15-11.54.30:800][958]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (469)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module AutomationController (466)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module AutomationWindow (464)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module Layers (462)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (460)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module DetailCustomizations (458)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module PackagesDialog (456)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module Persona (454)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (453)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module AnimGraph (451)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module Kismet (448)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module GraphEditor (446)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module ClassViewer (444)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module Toolbox (442)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module DesktopPlatform (441)
-[2019.08.15-11.54.30:866][958]LogModuleManager: Shutting down and abandoning module ModuleUI (438)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module MovieSceneTools (436)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module OutputLog (434)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module GammaUI (432)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module Documentation (430)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (428)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module MovieScene (426)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (424)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module LauncherPlatform (422)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module AnalyticsET (420)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module PortalServices (418)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module PortalRpc (416)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module MessagingRpc (414)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module AIModule (412)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module GameplayDebugger (411)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module AITestSuite (409)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module NavigationSystem (407)
-[2019.08.15-11.54.30:867][958]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (404)
-[2019.08.15-11.54.30:870][958]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module OculusInput (392)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module CableComponent (384)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
-[2019.08.15-11.54.30:892][958]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
-[2019.08.15-11.54.30:893][958]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
-[2019.08.15-11.54.30:893][958]LogModuleManager: Shutting down and abandoning module MediaCompositing (372)
-[2019.08.15-11.54.30:893][958]LogModuleManager: Shutting down and abandoning module LinearTimecode (370)
-[2019.08.15-11.54.30:893][958]LogModuleManager: Shutting down and abandoning module ImgMedia (368)
-[2019.08.15-11.54.30:895][958]LogModuleManager: Shutting down and abandoning module HTML5Networking (366)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (364)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (362)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module BackChannel (360)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module AppleVision (358)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (356)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module VariantManagerContent (344)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module SourceControl (315)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (310)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (308)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (306)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (304)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (302)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module Paper2DEditor (300)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module MeshPaint (299)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
-[2019.08.15-11.54.30:896][958]LogModuleManager: Shutting down and abandoning module OculusEditor (288)
-[2019.08.15-11.54.30:897][958]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (286)
-[2019.08.15-11.54.30:897][958]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.08.15-11.54.30:897][958]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.08.15-11.54.30:998][958]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.08.15-11.54.31:099][958]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.08.15-11.54.31:100][958]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.08.15-11.54.31:100][958]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.08.15-11.54.31:101][958]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.08.15-11.54.31:101][958]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.08.15-11.54.31:101][958]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.08.15-11.54.31:101][958]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.08.15-11.54.31:101][958]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.08.15-11.54.31:101][958]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (244)
-[2019.08.15-11.54.31:101][958]LogModuleManager: Shutting down and abandoning module WmfMedia (242)
-[2019.08.15-11.54.31:103][958]LogModuleManager: Shutting down and abandoning module Media (241)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module PacketHandler (238)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (236)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (234)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module MediaAssets (232)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module Overlay (230)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module OverlayEditor (229)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module VREditor (226)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module StringTableEditor (224)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (222)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (220)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module FunctionalTesting (218)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (216)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (215)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module UMG (212)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module UMGEditor (211)
-[2019.08.15-11.54.31:109][958]LogModuleManager: Shutting down and abandoning module Sequencer (210)
-[2019.08.15-11.54.31:110][958]LogModuleManager: Shutting down and abandoning module MessageLog (207)
-[2019.08.15-11.54.31:110][958]LogModuleManager: Shutting down and abandoning module SlateReflector (202)
-[2019.08.15-11.54.31:110][958]LogModuleManager: Shutting down and abandoning module Slate (200)
-[2019.08.15-11.54.31:110][958]LogModuleManager: Shutting down and abandoning module EditorStyle (198)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module MRMesh (196)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (194)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (192)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module XAudio2 (190)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module Networking (188)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module Core (186)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module LevelSequence (184)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module KismetCompiler (182)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module MeshUtilities (180)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (179)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (178)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (177)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (175)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (173)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (171)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module MaterialBaking (167)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (163)
-[2019.08.15-11.54.31:111][958]LogModuleManager: Shutting down and abandoning module DerivedDataCache (160)
-[2019.08.15-11.54.31:136][958]LogDerivedDataCache: Shutdown
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module XGEController (158)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module TargetPlatform (156)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (155)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (153)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (151)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (149)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (147)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (145)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (143)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (141)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (139)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (137)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module ImageWrapper (136)
-[2019.08.15-11.54.31:136][958]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (133)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (131)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (129)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (127)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (125)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (123)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (121)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (119)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (117)
-[2019.08.15-11.54.31:137][958]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (115)
-[2019.08.15-11.54.31:138][958]LogModuleManager: Shutting down and abandoning module Messaging (113)
-[2019.08.15-11.54.31:138][958]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (111)
-[2019.08.15-11.54.31:138][958]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (109)
-[2019.08.15-11.54.31:138][958]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (107)
-[2019.08.15-11.54.31:142][958]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (105)
-[2019.08.15-11.54.31:142][958]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (103)
-[2019.08.15-11.54.31:142][958]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (101)
-[2019.08.15-11.54.31:142][958]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (99)
-[2019.08.15-11.54.31:142][958]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (97)
-[2019.08.15-11.54.31:142][958]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (95)
-[2019.08.15-11.54.31:142][958]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (93)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (91)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (89)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module InputCore (86)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module Settings (84)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module PhysXCooking (82)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module SteamVR (80)
-[2019.08.15-11.54.31:143][958]LogHMD: Freeing OpenVRDLLHandle.
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module OculusHMD (78)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (76)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (74)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (72)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (68)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module XMPP (63)
-[2019.08.15-11.54.31:143][958]LogModuleManager: Shutting down and abandoning module WebSockets (62)
-[2019.08.15-11.54.31:144][958]LogModuleManager: Shutting down and abandoning module HTTP (59)
-[2019.08.15-11.54.31:144][958]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.08.15-11.54.31:145][958]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFB7F7345-4D75-8380-18CB-C58EE1EF4DBD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.21.2-4753647%2B%2B%2BUE4%2BRelease-4.21&UserID=2193e00349f1f7085d8681b233ad044d%7Ce64a35d83fd14510912a27aad9ca61f3%7C51f51279-e709-4798-961a-0bcc0e1672db&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.08.15-11.54.31:172][958]LogModuleManager: Shutting down and abandoning module SSL (58)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (54)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (52)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (50)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (48)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (46)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (44)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeapController (42)
-[2019.08.15-11.54.31:173][958]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module MagicLeap (40)
-[2019.08.15-11.54.31:173][958]LogModuleManager: Shutting down and abandoning module DatasmithContent (38)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.08.15-11.54.31:174][958]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.08.15-11.54.31:181][958]LogExit: Exiting.
-[2019.08.15-11.54.31:193][958]Log file closed, 08/15/19 13:54:31
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.09.16-18.23.59:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.16-18.23.59:601][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.09.16-18.23.59:601][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.16-18.23.59:602][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.09.16-18.23.59:602][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.09.16-18.23.59:605][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.16-18.23.59:605][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.16-18.23.59:606][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.16-18.23.59:606][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.16-18.23.59:606][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.16-18.23.59:615][  0]LogHAL: Display: Platform has ~ 24 GB [25647157248 / 34359738368 / 24], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.09.16-18.23.59:615][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.16-18.23.59:615][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.16-18.23.59:615][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Scalability.ini]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.16-18.23.59:616][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.16-18.23.59:617][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.16-18.23.59:617][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Config/Windows/Engine.ini]
+[2019.09.16-18.23.59:617][  0]LogInit: Computer: BAHAMUT
+[2019.09.16-18.23.59:617][  0]LogInit: User: kryst
+[2019.09.16-18.23.59:617][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.16-18.23.59:617][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.16-18.23.59:617][  0]LogMemory: Memory total: Physical=23.9GB (24GB approx)
+[2019.09.16-18.23.59:617][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.16-18.23.59:617][  0]LogMemory: Process Physical Memory: 102.27 MB used, 102.28 MB peak
+[2019.09.16-18.23.59:617][  0]LogMemory: Process Virtual Memory: 91.33 MB used, 91.33 MB peak
+[2019.09.16-18.23.59:617][  0]LogMemory: Physical Memory: 8736.24 MB used,  15722.80 MB free, 24459.04 MB total
+[2019.09.16-18.23.59:617][  0]LogMemory: Virtual Memory: 4635.66 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.09.16-18.23.59:646][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.09.16-18.23.59:646][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2019.09.16-18.24.00:101][  0]LogStreaming: Display: Took  0.456s to InitEngineTextLocalization.
+[2019.09.16-18.24.00:101][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.16-18.24.00:140][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.16-18.24.00:140][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.16-18.24.00:443][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.16-18.24.00:443][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.16-18.24.00:534][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2019.09.16-18.24.00:534][  0]LogD3D11RHI:       8081/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.16-18.24.00:549][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.09.16-18.24.00:549][  0]LogD3D11RHI:       128/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.09.16-18.24.00:552][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.16-18.24.00:552][  0]LogD3D11RHI:       0/0/12229 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.16-18.24.00:552][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.16-18.24.00:586][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.16-18.24.00:586][  0]LogD3D11RHI:     GPU DeviceId: 0x1ba1 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.16-18.24.00:586][  0]LogWindows: EnumDisplayDevices:
+[2019.09.16-18.24.00:587][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.09.16-18.24.00:587][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.09.16-18.24.00:587][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.09.16-18.24.00:587][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.16-18.24.00:588][  0]LogWindows:    4. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.16-18.24.00:588][  0]LogWindows:    5. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.16-18.24.00:589][  0]LogWindows:    6. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2019.09.16-18.24.00:589][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.09.16-18.24.00:589][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2019.09.16-18.24.00:589][  0]LogD3D11RHI:   Driver Version: 436.30 (internal:26.21.14.3630, unified:436.30)
+[2019.09.16-18.24.00:589][  0]LogD3D11RHI:      Driver Date: 9-5-2019
+[2019.09.16-18.24.00:589][  0]LogRHI: Texture pool is 5656 MB (70% of 8081 MB)
+[2019.09.16-18.24.00:639][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.16-18.24.00:650][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.16-18.24.01:087][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.09.16-18.24.01:103][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.09.16-18.24.01:120][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.09.16-18.24.01:136][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.09.16-18.24.01:153][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.09.16-18.24.01:171][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.09.16-18.24.01:188][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.09.16-18.24.01:206][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.09.16-18.24.01:214][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:300][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.09.16-18.24.01:301][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.09.16-18.24.01:365][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.16-18.24.01:365][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.09.16-18.24.01:389][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.16-18.24.01:389][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.09.16-18.24.01:403][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.09.16-18.24.01:418][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.09.16-18.24.01:434][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.09.16-18.24.01:449][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.09.16-18.24.01:499][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.09.16-18.24.01:499][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.09.16-18.24.01:499][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.16-18.24.01:594][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Intermediate/Shaders/WorkingDirectory/3200/).
+[2019.09.16-18.24.01:594][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kryst/AppData/Local/Temp/UnrealShaderWorkingDir/E192218D46A06ED533536A955EFF17B5/'.
+[2019.09.16-18.24.01:599][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.16-18.24.01:599][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.16-18.24.01:599][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.16-18.24.02:175][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.16-18.24.02:224][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.09.16-18.24.02:224][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.09.16-18.24.02:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.16-18.24.02:224][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.16-18.24.02:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.16-18.24.02:224][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.16-18.24.02:239][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.16-18.24.02:239][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.16-18.24.02:239][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.16-18.24.02:251][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kryst/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.16-18.24.02:251][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.16-18.24.02:251][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.16-18.24.02:274][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.16-18.24.02:276][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.16-18.24.02:276][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.16-18.24.02:381][  0]LogAssetRegistry: FAssetRegistry took 0.0353 seconds to start up
+[2019.09.16-18.24.02:789][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.16-18.24.02:957][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.09.16-18.24.02:962][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.09.16-18.24.02:962][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.16-18.24.02:962][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.16-18.24.02:962][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.09.16-18.24.02:981][  0]LogNetVersion: FPSStealth 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3402079695)
+[2019.09.16-18.24.03:662][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.054684 seconds
+[2019.09.16-18.24.03:671][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.09.16-18.24.03:671][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.09.16-18.24.03:671][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.16-18.24.04:734][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.16-18.24.04:749][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.16-18.24.05:852][  0]SourceControl: Source control is disabled
+[2019.09.16-18.24.05:852][  0]SourceControl: Source control is disabled
+[2019.09.16-18.24.05:853][  0]SourceControl: Source control is disabled
+[2019.09.16-18.24.05:854][  0]SourceControl: Source control is disabled
+[2019.09.16-18.24.06:027][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.16-18.24.06:089][  0]LogOcInput: OculusInput pre-init called
+[2019.09.16-18.24.06:277][  0]LogEngine: Initializing Engine...
+[2019.09.16-18.24.06:278][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.16-18.24.06:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.16-18.24.06:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.16-18.24.06:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.16-18.24.06:279][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.16-18.24.06:566][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.16-18.24.06:587][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.16-18.24.06:597][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.16-18.24.06:769][  0]LogInit: FAudioDevice initialized.
+[2019.09.16-18.24.06:769][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.16-18.24.06:816][  0]LogDerivedDataCache: Saved boot cache 0.05s 73MB C:/Users/kryst/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.09.16-18.24.06:823][  0]LogInit: Texture streaming: Enabled
+[2019.09.16-18.24.06:852][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.16-18.24.06:868][  0]LogInit: Transaction tracking system initialized
+[2019.09.16-18.24.06:911][  0]BlueprintLog: New page: Editor Load
+[2019.09.16-18.24.07:122][  0]LocalizationService: Localization service is disabled
+[2019.09.16-18.24.07:611][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/' took 0.02s
+[2019.09.16-18.24.07:611][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.16-18.24.07:611][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.16-18.24.07:612][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.09.16-18.24.07:612][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.09.16-18.24.07:612][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.09.16-18.24.07:612][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.09.16-18.24.07:612][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.09.16-18.24.07:799][  0]SourceControl: Source control is disabled
+[2019.09.16-18.24.07:799][  0]Cmd: MAP LOAD FILE="D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.16-18.24.07:799][  0]LightingResults: New page: Lighting Build
+[2019.09.16-18.24.07:804][  0]MapCheck: New page: Map Check
+[2019.09.16-18.24.07:804][  0]LightingResults: New page: Lighting Build
+[2019.09.16-18.24.08:096][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.09.16-18.24.08:110][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.16-18.24.08:135][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.16-18.24.08:135][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.114ms to complete.
+[2019.09.16-18.24.08:135][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.335
+[2019.09.16-18.24.08:267][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-18.24.08:283][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-18.24.08:295][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-18.24.08:307][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-18.24.08:318][  0]LogCollectionManager: Loaded 0 collections in 0.003214 seconds
+[2019.09.16-18.24.08:336][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Saved/Collections/' took 0.01s
+[2019.09.16-18.24.08:336][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Developers/kryst/Collections/' took 0.00s
+[2019.09.16-18.24.08:336][  0]LogFileCache: Scanning file cache for directory 'D:/Documentos/GitHub/PrototypeStealthGame/FPSStealth/Content/Collections/' took 0.00s
+[2019.09.16-18.24.08:336][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.16-18.24.08:364][  0]LogContentBrowser: Native class hierarchy populated in 0.0279 seconds. Added 2658 classes and 623 folders.
+[2019.09.16-18.24.08:386][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.09.16-18.24.08:389][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:390][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:391][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:391][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:392][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:392][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:393][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:393][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:394][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:395][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:396][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:397][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:398][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:399][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:400][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:401][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:402][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:404][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:407][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:408][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:410][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:411][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:412][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:413][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.16-18.24.08:541][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2019.09.16-18.24.08:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
+[2019.09.16-18.24.08:687][  0]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.16-18.24.08:692][  0]LogSlate: Took 0.001109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.16-18.24.08:702][  0]LogSlate: Took 0.000426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.16-18.24.08:818][  0]LogRenderer: Reallocating scene render targets to support 1028x632 Format 10 NumSamples 1 (Frame:1).
+[2019.09.16-18.24.09:025][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.09.16-18.24.09:025][  0]LogLoad: (Engine Initialization) Total time: 11.90 seconds
+[2019.09.16-18.24.09:025][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.16-18.24.09:100][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.16-18.24.09:142][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.16-18.24.09:386][  3]LogAssetRegistry: Asset discovery search completed in 7.0286 seconds
+[2019.09.16-18.24.09:390][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.09.16-18.24.09:391][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000134 seconds (updated 0 objects)
+[2019.09.16-18.24.12:297][140]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.16-18.24.12:412][147]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.09.16-18.24.12:421][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.09.16-18.24.12:422][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.16-18.24.12:422][147]PIE: New page: PIE session: FirstPersonExampleMap (Sep 16, 2019, 10:24:12 PM)
+[2019.09.16-18.24.12:434][147]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap
+[2019.09.16-18.24.12:457][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022695s)
+[2019.09.16-18.24.12:458][147]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.09.16-18.24.12:458][147]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2019.09.16-18.24.12:458][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap (0.024114s)
+[2019.09.16-18.24.12:489][147]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.16-18.24.12:549][147]LogInit: FAudioDevice initialized.
+[2019.09.16-18.24.12:557][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-18.24.12:602][147]LogLoad: Game class is 'BP_StealthGameMode_C'
+[2019.09.16-18.24.12:614][147]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.09.16-20.24.12
+[2019.09.16-18.24.12:617][147]LogWorld: Bringing up level for play took: 0.010496
+[2019.09.16-18.24.12:660][147]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 20 classes and 0 folders.
+[2019.09.16-18.24.12:660][147]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.09.16-18.24.12:661][147]LogTemp: Display: ParseSettings for IpNetDriver_0
+[2019.09.16-18.24.12:661][147]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.09.16-18.24.12:661][147]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2019.09.16-18.24.12:661][147]PacketHandlerLog: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2019.09.16-18.24.12:661][147]LogInit: WinSock: Socket queue 131072 / 131072
+[2019.09.16-18.24.12:665][147]LogInit: WinSock: I am Bahamut (192.168.1.50:0)
+[2019.09.16-18.24.12:666][147]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.09.16-18.24.12:666][147]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2019.09.16-18.24.12:672][147]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap -0.079
+[2019.09.16-18.24.12:680][147]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.16-18.24.12:687][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.16-18.24.12:728][147]LogNet: Browse: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/FirstPersonExampleMap
+[2019.09.16-18.24.12:728][147]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.09.16-18.24.12:728][147]LogTemp: Display: ParseSettings for IpNetDriver_1
+[2019.09.16-18.24.12:728][147]LogTemp: Display: ParseSettings for PendingNetDriver
+[2019.09.16-18.24.12:728][147]LogInit: WinSock: Socket queue 32768 / 32768
+[2019.09.16-18.24.12:730][147]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.09.16-18.24.12:730][147]LogNet: Game client on port 17777, rate 10000
+[2019.09.16-18.24.12:735][147]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/FirstPersonExampleMap -0.016
+[2019.09.16-18.24.12:744][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.09.16-18.24.12:745][147]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50130
+[2019.09.16-18.24.12:745][147]LogHandshake: SendConnectChallenge. Timestamp: 0.016667, Cookie: 103135015033166116140091094012251014057213061116162248233055
+[2019.09.16-18.24.12:758][147]LogHandshake: SendChallengeResponse. Timestamp: 0.016667, Cookie: 103135015033166116140091094012251014057213061116162248233055
+[2019.09.16-18.24.12:801][147]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2019.09.16-18.24.12:876][148]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:50130
+[2019.09.16-18.24.12:877][148]LogHandshake: SendChallengeAck. InCookie: 103135015033166116140091094012251014057213061116162248233055
+[2019.09.16-18.24.12:877][148]LogNet: Server accepting post-challenge connection from: 127.0.0.1:50130
+[2019.09.16-18.24.12:878][148]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2019.09.16-18.24.12:878][148]LogNet: NotifyAcceptedConnection: Name: FirstPersonExampleMap, TimeStamp: 09/16/19 20:24:12, [UNetConnection] RemoteAddr: 127.0.0.1:50130, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.09.16-18.24.12:879][148]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:50130, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.09.16-18.24.12:882][148]LogNetVersion: FPSStealth 1.0.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3773683617)
+[2019.09.16-18.24.12:882][148]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_0, Driver: PendingNetDriver IpNetDriver_1, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2019.09.16-18.24.12:947][149]LogNet: NotifyAcceptingChannel Control 0 server World /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap.FirstPersonExampleMap: Accepted
+[2019.09.16-18.24.12:947][149]LogNet: Remote platform little endian=1
+[2019.09.16-18.24.12:947][149]LogNet: This platform little endian=1
+[2019.09.16-18.24.12:971][150]LogNet: Login request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?Name=Bahamut-5B0770984FFC9B1315534B84C7164905 userId: NULL:Bahamut-5B0770984FFC9B1315534B84C7164905 platform: NULL
+[2019.09.16-18.24.12:972][150]LogNet: Welcomed by server (Level: /Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap, Game: /Game/Blueprints/BP_StealthGameMode.BP_StealthGameMode_C)
+[2019.09.16-18.24.12:975][150]LogLoad: LoadMap: 127.0.0.1:17777//Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap?game=/Game/Blueprints/BP_StealthGameMode.BP_StealthGameMode_C
+[2019.09.16-18.24.13:017][150]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.09.16-18.24.13:017][150]LogTemp: Display: ParseSettings for GameNetDriver
+[2019.09.16-18.24.13:021][150]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_2_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2019.09.16-20.24.13
+[2019.09.16-18.24.13:021][150]LogWorld: Bringing up level for play took: 0.002691
+[2019.09.16-18.24.13:022][150]LogLoad: Took 0.046269 seconds to LoadMap(/Game/FirstPersonCPP/Maps/UEDPIE_1_FirstPersonExampleMap)
+[2019.09.16-18.24.13:035][151]LogNet: Client netspeed is 10000
+[2019.09.16-18.24.13:035][151]LogNet: Join request: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap?Name=Bahamut-5B0770984FFC9B1315534B84C7164905?SplitscreenCount=1
+[2019.09.16-18.24.13:036][151]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2019.09.16-18.24.13:038][151]LogNet: Join succeeded: Bahamut-5B0770984FFC
+[2019.09.16-18.24.20:890][154]LogWindows: Error: === Critical error: ===
+[2019.09.16-18.24.20:890][154]LogWindows: Error: 
+[2019.09.16-18.24.20:890][154]LogWindows: Error: Fatal error!
+[2019.09.16-18.24.20:891][154]LogWindows: Error: 
+[2019.09.16-18.24.20:891][154]LogWindows: Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x000004b8
+[2019.09.16-18.24.20:891][154]LogWindows: Error: 
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff94f51c00c UE4Editor-AIModule.dll!AAIController::MoveToLocation() [d:\build\++ue4\sync\engine\source\runtime\aimodule\private\aicontroller.cpp:577]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff942018824 UE4Editor-FPSStealth-7651.dll!UnknownFunction []
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9533c3c95 UE4Editor-Engine.dll!AActor::DispatchBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:3230]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff95481060c UE4Editor-Engine.dll!AWorldSettings::NotifyBeginPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\worldsettings.cpp:251]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff953bde0ec UE4Editor-Engine.dll!AGameStateBase::OnRep_ReplicatedHasBegunPlay() [d:\build\++ue4\sync\engine\source\runtime\engine\private\gamestatebase.cpp:168]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff963614b14 UE4Editor-CoreUObject.dll!UFunction::Invoke() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\class.cpp:4861]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9638a73c6 UE4Editor-CoreUObject.dll!UObject::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\coreuobject\private\uobject\scriptcore.cpp:1480]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9533f3923 UE4Editor-Engine.dll!AActor::ProcessEvent() [d:\build\++ue4\sync\engine\source\runtime\engine\private\actor.cpp:713]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9542700cf UE4Editor-Engine.dll!FRepLayout::CallRepNotifies() [d:\build\++ue4\sync\engine\source\runtime\engine\private\replayout.cpp:2570]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9539a5ac7 UE4Editor-Engine.dll!FObjectReplicator::CallRepNotifies() [d:\build\++ue4\sync\engine\source\runtime\engine\private\datareplication.cpp:1552]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9539d0fa8 UE4Editor-Engine.dll!FObjectReplicator::PostReceivedBunch() [d:\build\++ue4\sync\engine\source\runtime\engine\private\datareplication.cpp:1097]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9539d3938 UE4Editor-Engine.dll!UActorChannel::ProcessBunch() [d:\build\++ue4\sync\engine\source\runtime\engine\private\datachannel.cpp:2521]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9539e2c1e UE4Editor-Engine.dll!UActorChannel::ReceivedBunch() [d:\build\++ue4\sync\engine\source\runtime\engine\private\datachannel.cpp:2347]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9539e848c UE4Editor-Engine.dll!UChannel::ReceivedSequencedBunch() [d:\build\++ue4\sync\engine\source\runtime\engine\private\datachannel.cpp:323]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9539e697e UE4Editor-Engine.dll!UChannel::ReceivedNextBunch() [d:\build\++ue4\sync\engine\source\runtime\engine\private\datachannel.cpp:730]
+[2019.09.16-18.24.20:891][154]LogWindows: Error: [Callstack] 0x00007ff9539e80c8 UE4Editor-Engine.dll!UChannel::ReceivedRawBunch() [d:\build\++ue4\sync\engine\source\runtime\engine\private\datachannel.cpp:417]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff953f8f06a UE4Editor-Engine.dll!UNetConnection::ReceivedPacket() [d:\build\++ue4\sync\engine\source\runtime\engine\private\netconnection.cpp:1731]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff953f90328 UE4Editor-Engine.dll!UNetConnection::ReceivedRawPacket() [d:\build\++ue4\sync\engine\source\runtime\engine\private\netconnection.cpp:1017]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff94e3c0e1a UE4Editor-OnlineSubsystemUtils.dll!UIpNetDriver::TickDispatch() [d:\build\++ue4\sync\engine\plugins\online\onlinesubsystemutils\source\onlinesubsystemutils\private\ipnetdriver.cpp:358]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff953f5eabf UE4Editor-Engine.dll!TBaseUObjectMethodDelegateInstance<0,UNetDriver,void __cdecl(float)>::ExecuteIfSafe() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegateinstancesimpl.h:679]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff953301a93 UE4Editor-Engine.dll!TBaseMulticastDelegate<void,float>::Broadcast() [d:\build\++ue4\sync\engine\source\runtime\core\public\delegates\delegatesignatureimpl.inl:974]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff953db64fb UE4Editor-Engine.dll!UWorld::Tick() [d:\build\++ue4\sync\engine\source\runtime\engine\private\leveltick.cpp:1349]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff956cf2085 UE4Editor-UnrealEd.dll!UEditorEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\editorengine.cpp:1726]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff957612346 UE4Editor-UnrealEd.dll!UUnrealEdEngine::Tick() [d:\build\++ue4\sync\engine\source\editor\unrealed\private\unrealedengine.cpp:403]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff7a6fc6225 UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launchengineloop.cpp:3699]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff7a6fd596c UE4Editor.exe!GuardedMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\launch.cpp:174]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff7a6fd59ea UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:145]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff7a6fe48da UE4Editor.exe!WinMain() [d:\build\++ue4\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:276]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff7a6fe659a UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:283]
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff9baa27974 KERNEL32.DLL!UnknownFunction []
+[2019.09.16-18.24.20:892][154]LogWindows: Error: [Callstack] 0x00007ff9bd7fa271 ntdll.dll!UnknownFunction []
+[2019.09.16-18.24.20:892][154]LogWindows: Error: 
+[2019.09.16-18.24.20:919][154]LogExit: Executing StaticShutdownAfterError
+[2019.09.16-18.24.20:928][154]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.09.16-18.24.20:933][154]Log file closed, 09/16/19 20:24:20

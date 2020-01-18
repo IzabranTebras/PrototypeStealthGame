@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\FPSStealth.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6C7C4841-169D-4EC5-AA1E-592FCB30B105}</UniqueIdentifier>
+      <UniqueIdentifier>{33DF4B6C-85BA-4537-BB84-C5DDF9314843}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSStealth.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{312067F7-0C71-4A74-81C2-CA3E8868AA4E}</UniqueIdentifier>
+      <UniqueIdentifier>{2EC9A297-1061-4372-B555-85400F0D9ABD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\FPSStealth">
-      <UniqueIdentifier>{337BDA98-FC53-4F3F-A216-1E8927B60B85}</UniqueIdentifier>
+      <UniqueIdentifier>{F80FDBE5-9B9A-471C-9AE7-B5E11E0ECEC3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\FPSStealth\FPSStealth.Build.cs">
       <Filter>Source\FPSStealth</Filter>
@@ -65,23 +65,29 @@
     <ClInclude Include="..\..\Source\FPSStealth\FPSStealthProjectile.h">
       <Filter>Source\FPSStealth</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\FPSStealth\Public">
-      <UniqueIdentifier>{4d0d749b-db5c-4dd5-bfc1-cdc2f062a1b9}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\FPSStealth\Private">
-      <UniqueIdentifier>{aae38f96-4e75-4b1f-9574-1ed1a55aa0b7}</UniqueIdentifier>
+      <UniqueIdentifier>{8C2AB838-30B9-413A-B21B-9A1C618D4FDD}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\FPSStealth\Public\AIGuard.h">
-      <Filter>Source\FPSStealth\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="..\..\Source\FPSStealth\Private\AIGuard.cpp">
       <Filter>Source\FPSStealth\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\FPSStealth\Private\ExtractionZone.cpp">
+      <Filter>Source\FPSStealth\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPSStealth\Private\Objective.cpp">
+      <Filter>Source\FPSStealth\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\FPSStealth\Public">
+      <UniqueIdentifier>{F67551DB-0A21-4EBD-81F1-725554A2A1E6}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\FPSStealth\Public\AIGuard.h">
+      <Filter>Source\FPSStealth\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSStealth\Public\ExtractionZone.h">
+      <Filter>Source\FPSStealth\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPSStealth\Public\Objective.h">
+      <Filter>Source\FPSStealth\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
